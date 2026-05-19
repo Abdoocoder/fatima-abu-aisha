@@ -1,8 +1,5 @@
-"use client";
-
 import Image from "next/image";
 import { ArrowLeft, Gavel, Users, Briefcase } from "lucide-react";
-import { motion } from "motion/react";
 import Link from "next/link";
 import { ASSETS, PRACTICE_AREAS } from "@/constants";
 
@@ -21,12 +18,7 @@ export default function Home() {
 
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full grid md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-6 flex flex-col gap-8 order-2 md:order-1">
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.2 }}
-              className="space-y-4"
-            >
+            <div className="space-y-4">
               <span className="text-brand-gold font-tajawal text-sm font-bold tracking-wider">
                 محاماة واستشارات قانونية
               </span>
@@ -38,14 +30,9 @@ export default function Home() {
                 نقدم خدمات قانونية متكاملة بمهنية عالية لضمان أفضل النتائج
                 لعملائنا في مختلف القضايا القانونية.
               </p>
-            </motion.div>
+            </div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              className="flex flex-col sm:flex-row gap-4"
-            >
+            <div className="flex flex-col sm:flex-row gap-4">
               <button className="btn-primary px-8 py-4 text-lg">
                 احجز استشارة{" "}
                 <ArrowLeft className="w-5 h-5 rtl:rotate-0" />
@@ -56,15 +43,10 @@ export default function Home() {
               >
                 تعرف على خدماتنا
               </Link>
-            </motion.div>
+            </div>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            className="md:col-span-6 flex justify-center items-center order-1 md:order-2"
-          >
+          <div className="md:col-span-6 flex justify-center items-center order-1 md:order-2">
             <div className="relative w-full max-w-[450px] aspect-square flex items-center justify-center bg-white rounded-full shadow-sm border border-brand-gray p-8">
               <div className="absolute inset-0 border-2 border-brand-gold/10 rounded-full scale-105 animate-pulse" />
               <Image
@@ -73,10 +55,11 @@ export default function Home() {
                 fill
                 className="object-contain"
                 loading="eager"
+                sizes="(max-width: 768px) 100vw, 450px"
                 unoptimized
               />
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -93,15 +76,11 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {PRACTICE_AREAS.map((service, index) => {
+            {PRACTICE_AREAS.map((service) => {
               const Icon = ICON_MAP[service.icon] || Gavel;
               return (
-                <motion.div
+                <div
                   key={service.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
                   className="card-flat p-8 rounded-lg group flex flex-col h-full"
                 >
                   <div className="w-16 h-16 bg-brand-gray rounded-full flex items-center justify-center text-brand-gold mb-6 group-hover:bg-brand-gold group-hover:text-white transition-all duration-300">
@@ -119,7 +98,7 @@ export default function Home() {
                   >
                     اقرأ المزيد <ArrowLeft className="w-4 h-4 ml-1" />
                   </Link>
-                </motion.div>
+                </div>
               );
             })}
           </div>

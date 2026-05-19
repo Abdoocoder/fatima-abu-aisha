@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "motion/react";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useMutation } from "convex/react";
 import { api } from "@convex/_generated/api";
@@ -36,22 +35,13 @@ export default function Contact() {
     <div className="flex flex-col">
       <section className="py-20 px-margin-mobile md:px-margin-desktop bg-surface border-b border-brand-gray">
         <div className="max-w-container-max mx-auto">
-          <motion.h1
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="font-tajawal text-4xl md:text-5xl font-bold text-brand-navy mb-4"
-          >
+          <h1 className="font-tajawal text-4xl md:text-5xl font-bold text-brand-navy mb-4">
             اتصل بنا
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
-            className="font-tajawal text-lg text-on-surface-variant max-w-2xl leading-relaxed"
-          >
+          </h1>
+          <p className="font-tajawal text-lg text-on-surface-variant max-w-2xl leading-relaxed">
             نرحب باستفساراتكم. يمكنكم التواصل معنا عبر النموذج أدناه أو من خلال
             معلومات الاتصال المباشرة.
-          </motion.p>
+          </p>
         </div>
       </section>
 
@@ -97,11 +87,7 @@ export default function Contact() {
 
           <div className="md:col-span-7">
             {submitted ? (
-              <motion.div
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                className="bg-brand-gray/50 border border-brand-gray rounded-xl p-12 text-center space-y-6"
-              >
+              <div className="bg-brand-gray/50 border border-brand-gray rounded-xl p-12 text-center space-y-6">
                 <div className="w-20 h-20 rounded-full bg-brand-gold/10 flex items-center justify-center text-brand-gold mx-auto">
                   <Send className="w-10 h-10" />
                 </div>
@@ -111,7 +97,7 @@ export default function Contact() {
                 <p className="font-tajawal text-on-surface-variant">
                   سنتواصل معك في أقرب وقت ممكن. شكراً لتواصلك.
                 </p>
-              </motion.div>
+              </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

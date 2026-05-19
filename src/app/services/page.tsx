@@ -1,6 +1,3 @@
-"use client";
-
-import { motion } from "motion/react";
 import {
   Scale,
   Users,
@@ -56,36 +53,23 @@ export default function Services() {
     <div className="flex flex-col">
       <section className="py-20 px-margin-mobile md:px-margin-desktop bg-surface border-b border-brand-gray">
         <div className="max-w-container-max mx-auto">
-          <motion.h1
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="font-tajawal text-4xl md:text-5xl font-bold text-brand-navy mb-6"
-          >
+          <h1 className="font-tajawal text-4xl md:text-5xl font-bold text-brand-navy mb-6">
             مجالات الاختصاص القانوني
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
-            className="font-tajawal text-lg text-on-surface-variant max-w-2xl leading-relaxed"
-          >
+          </h1>
+          <p className="font-tajawal text-lg text-on-surface-variant max-w-2xl leading-relaxed">
             نقدم خدمات قانونية شاملة ومتخصصة تلبي احتياجات عملائنا بأعلى
             معايير الدقة والاحترافية، مع التركيز على حماية حقوقكم وتحقيق أفضل
             النتائج.
-          </motion.p>
+          </p>
         </div>
       </section>
 
       <section className="py-section-padding px-margin-mobile md:px-margin-desktop bg-white">
         <div className="max-w-container-max mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {SERVICES.map((service, index) => (
-              <motion.div
+            {SERVICES.map((service) => (
+              <div
                 key={service.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
                 className={`card-flat p-8 rounded-xl flex flex-col items-start group ${
                   service.featured
                     ? "lg:col-span-2 md:flex-row md:items-center md:gap-10"
@@ -102,9 +86,9 @@ export default function Services() {
                   />
                 </div>
                 <div className="flex-grow">
-                  <h3 className="font-tajawal text-2xl font-bold text-brand-navy mb-3 group-hover:text-brand-gold transition-colors">
+                  <h2 className="font-tajawal text-2xl font-bold text-brand-navy mb-3 group-hover:text-brand-gold transition-colors">
                     {service.title}
-                  </h3>
+                  </h2>
                   <p
                     className={`font-tajawal text-on-surface-variant leading-relaxed mb-6 ${
                       service.featured ? "max-w-xl" : ""
@@ -129,7 +113,7 @@ export default function Services() {
                     <ArrowRight className="w-4 h-4 rtl:rotate-180" />
                   </button>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>

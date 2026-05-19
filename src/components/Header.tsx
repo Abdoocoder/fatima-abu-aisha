@@ -72,7 +72,7 @@ export default function Header() {
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
-              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+              transition={{ duration: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
               className="fixed inset-y-0 right-0 w-72 bg-white shadow-xl z-[70] md:hidden flex flex-col"
             >
               <div className="p-6 flex justify-between items-center border-b border-brand-gray">

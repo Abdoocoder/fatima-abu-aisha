@@ -5,7 +5,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-brand-navy text-white pt-16 pb-8 border-t-4 border-brand-gold">
+    <footer className="bg-brand-navy text-white pt-16 pb-8">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="flex flex-col md:flex-row justify-between items-center gap-10">
           <div className="flex flex-col items-center md:items-start gap-4">

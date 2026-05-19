@@ -85,7 +85,7 @@ export default function ArticlePage() {
           </header>
 
           {article.excerpt && (
-            <p className="font-tajawal text-xl text-on-surface-variant leading-relaxed mb-12 border-r-4 border-brand-gold pr-6">
+            <p className="font-tajawal text-xl text-on-surface-variant leading-relaxed mb-12 bg-brand-gray/30 border-r-2 border-brand-gold p-6 rounded-lg">
               {article.excerpt}
             </p>
           )}

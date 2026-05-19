@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "motion/react";
 import { Search, Calendar, Clock, ArrowRight } from "lucide-react";
 import { ASSETS } from "@/constants";
 
@@ -43,22 +42,13 @@ export default function Articles() {
     <div className="flex flex-col">
       <section className="pt-20 pb-10 px-margin-mobile md:px-margin-desktop bg-white border-b border-brand-gray">
         <div className="max-w-container-max mx-auto">
-          <motion.h1
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="font-tajawal text-4xl md:text-5xl font-bold text-brand-navy mb-4"
-          >
+          <h1 className="font-tajawal text-4xl md:text-5xl font-bold text-brand-navy mb-4">
             المكتبة القانونية
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
-            className="font-tajawal text-lg text-on-surface-variant max-w-3xl leading-relaxed"
-          >
+          </h1>
+          <p className="font-tajawal text-lg text-on-surface-variant max-w-3xl leading-relaxed">
             مقالات وتحليلات قانونية متخصصة تهدف إلى نشر الوعي القانوني وتوضيح
             المستجدات في التشريعات والأنظمة.
-          </motion.p>
+          </p>
         </div>
       </section>
 
@@ -100,10 +90,7 @@ export default function Articles() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-20">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.98 }}
-              animate={{ opacity: 1, scale: 1 }}
-              className="md:col-span-8 group relative aspect-[16/9] md:aspect-auto md:h-[450px] rounded-2xl overflow-hidden cursor-pointer"
+            <div className="md:col-span-8 group relative aspect-[16/9] md:aspect-auto md:h-[450px] rounded-2xl overflow-hidden cursor-pointer"
             >
               <Image
                 src={ASSETS.BLOG_1}
@@ -135,7 +122,7 @@ export default function Articles() {
                   </span>
                 </div>
               </div>
-            </motion.div>
+            </div>
 
             <div className="md:col-span-4 flex flex-col gap-6">
               <div className="bg-brand-navy text-white p-8 rounded-2xl flex-1 flex flex-col justify-center group cursor-pointer relative overflow-hidden">
@@ -175,13 +162,9 @@ export default function Articles() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {ARTICLES.map((article, index) => (
-              <motion.article
+            {ARTICLES.map((article) => (
+              <article
                 key={article.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
                 className="card-flat rounded-xl overflow-hidden group flex flex-col h-full"
               >
                 <div className="h-48 overflow-hidden bg-brand-gray relative">
@@ -200,7 +183,7 @@ export default function Articles() {
                       <span className="text-6xl font-bold">L</span>
                     </div>
                   )}
-                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded text-[10px] font-bold text-brand-gold uppercase tracking-widest">
+                  <div className="absolute top-4 right-4 bg-white/95 px-3 py-1 rounded text-[10px] font-bold text-brand-gold uppercase tracking-widest">
                     {article.category}
                   </div>
                 </div>
@@ -219,24 +202,30 @@ export default function Articles() {
                     <ArrowRight className="w-4 h-4 rtl:rotate-180" />
                   </button>
                 </div>
-              </motion.article>
+              </article>
             ))}
           </div>
 
           <div className="mt-16 flex justify-center items-center gap-3">
-            <button className="w-10 h-10 rounded border border-brand-gray flex items-center justify-center text-on-surface-variant hover:bg-brand-gray transition-colors">
+            <button
+              className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-on-surface-variant hover:bg-brand-gray transition-colors"
+              aria-label="الصفحة السابقة"
+            >
               <ArrowRight className="w-4 h-4" />
             </button>
-            <button className="w-10 h-10 rounded bg-brand-navy text-white flex items-center justify-center font-bold">
+            <button className="w-11 h-11 rounded bg-brand-navy text-white flex items-center justify-center font-bold" aria-current="page">
               ١
             </button>
-            <button className="w-10 h-10 rounded border border-brand-gray flex items-center justify-center text-brand-navy hover:bg-brand-gray transition-colors font-bold">
+            <button className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-brand-navy hover:bg-brand-gray transition-colors font-bold">
               ٢
             </button>
-            <button className="w-10 h-10 rounded border border-brand-gray flex items-center justify-center text-brand-navy hover:bg-brand-gray transition-colors font-bold">
+            <button className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-brand-navy hover:bg-brand-gray transition-colors font-bold">
               ٣
             </button>
-            <button className="w-10 h-10 rounded border border-brand-gray flex items-center justify-center text-on-surface-variant hover:bg-brand-gray transition-colors">
+            <button
+              className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-on-surface-variant hover:bg-brand-gray transition-colors"
+              aria-label="الصفحة التالية"
+            >
               <ArrowRight className="w-4 h-4 rotate-180" />
             </button>
           </div>

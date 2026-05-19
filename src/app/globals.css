@@ -17,6 +17,8 @@
   --spacing-section-padding: 4rem;
   --spacing-margin-desktop: 2.5rem;
   --spacing-margin-mobile: 1rem;
+
+  --shadow-card-hover: 0 20px 40px color-mix(in srgb, currentColor 4%, transparent);
 }
 
 @layer base {
@@ -44,7 +46,7 @@
   }
 
   .card-flat {
-    @apply bg-white border border-brand-gray transition-all hover:shadow-[0_20px_40px_rgba(0,0,0,0.04)];
+    @apply bg-white border border-brand-gray transition-all hover:shadow-card-hover;
   }
 }
 
