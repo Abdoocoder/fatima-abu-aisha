@@ -19,7 +19,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="font-tajawal text-sm text-white/60">
-              محاماة واستشارات قانونية
+              للمحاماة والاستشارات القانونية
             </p>
           </div>
 

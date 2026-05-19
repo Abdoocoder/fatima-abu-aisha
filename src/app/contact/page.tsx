@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Phone, MapPin, Send } from "lucide-react";
 import { useMutation } from "convex/react";
 import { api } from "@convex/_generated/api";
 
@@ -48,41 +48,31 @@ export default function Contact() {
       <section className="py-section-padding px-margin-mobile md:px-margin-desktop bg-white">
         <div className="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-12 gap-16">
           <div className="md:col-span-5 space-y-8">
-            <div className="space-y-6">
-              <h2 className="font-tajawal text-2xl font-bold text-brand-navy">
-                معلومات التواصل
-              </h2>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-brand-gray flex items-center justify-center text-brand-gold shrink-0">
-                  <MapPin className="w-5 h-5" />
+              <div className="space-y-6">
+                <h2 className="font-tajawal text-2xl font-bold text-brand-navy">
+                  معلومات التواصل
+                </h2>
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 rounded-full bg-brand-gray flex items-center justify-center text-brand-gold shrink-0 mt-1">
+                    <MapPin className="w-5 h-5" />
+                  </div>
+                  <div className="font-tajawal text-on-surface-variant leading-relaxed">
+                    عمان / شارع الامير حسين / مجمع فراج سنتر 2
+                    <br />
+                    الطابق الرابع / مكتب (407)
+                  </div>
                 </div>
-                <div>
-                  <p className="font-tajawal text-on-surface-variant">
-                    عمان، الأردن
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-brand-gray flex items-center justify-center text-brand-gold shrink-0">
-                  <Phone className="w-5 h-5" />
-                </div>
-                <div>
-                  <p className="font-tajawal text-on-surface-variant">
-                    +962 7X XXX XXXX
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-brand-gray flex items-center justify-center text-brand-gold shrink-0">
-                  <Mail className="w-5 h-5" />
-                </div>
-                <div>
-                  <p className="font-tajawal text-on-surface-variant">
-                    info@fatima-abu-aisha.com
-                  </p>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-brand-gray flex items-center justify-center text-brand-gold shrink-0">
+                    <Phone className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <p className="font-tajawal text-on-surface-variant" dir="ltr">
+                      0789865794
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
           </div>
 
           <div className="md:col-span-7">
@@ -148,7 +138,7 @@ export default function Contact() {
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     className="w-full px-4 py-3 border border-brand-gray rounded-lg focus:ring-2 focus:ring-brand-gold outline-none font-tajawal"
-                    placeholder="+962 7X XXX XXXX"
+                    placeholder="0789865794"
                   />
                 </div>
 

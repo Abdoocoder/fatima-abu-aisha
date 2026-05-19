@@ -20,7 +20,7 @@ export default function Home() {
           <div className="md:col-span-6 flex flex-col gap-8 order-2 md:order-1">
             <div className="space-y-4">
               <span className="text-brand-gold font-tajawal text-sm font-bold tracking-wider">
-                محاماة واستشارات قانونية
+                للمحاماة والاستشارات القانونية
               </span>
               <h1 className="font-tajawal text-4xl md:text-5xl lg:text-6xl font-bold text-brand-navy leading-tight">
                 حماية حقوقك، <br />

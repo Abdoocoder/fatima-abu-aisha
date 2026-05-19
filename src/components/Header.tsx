@@ -24,7 +24,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-3">
           <Gavel className="text-brand-gold w-8 h-8" />
           <span className="font-tajawal text-xl font-bold text-brand-navy">
-            فاطمة أبو عيشة للمحاماة
+            المحامية فاطمة أبو عيشة
           </span>
         </Link>
 
