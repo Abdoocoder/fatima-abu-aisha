@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Gavel, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+import MagneticButton from "@/components/MagneticButton";
 
 const navLinks = [
   { name: "الرئيسية", path: "/" },
@@ -45,9 +46,9 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <button className="hidden md:block btn-gold px-6">
+          <MagneticButton className="hidden md:block btn-gold px-6">
             طلب استشارة
-          </button>
+          </MagneticButton>
           <button
             className="md:hidden p-2 text-brand-navy active:scale-95 transition-transform duration-150 ease-[var(--ease-out)]"
             onClick={() => setIsMenuOpen(true)}
