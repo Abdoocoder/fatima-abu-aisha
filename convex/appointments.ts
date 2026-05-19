@@ -1,6 +1,6 @@
 import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
-import { getUserId } from "./auth";
+import { getUserId, enforceAdmin } from "./auth";
 
 export const create = mutation({
   args: {
@@ -34,6 +34,7 @@ export const getMyAppointments = query({
 
 export const getAll = query({
   handler: async (ctx) => {
+    await enforceAdmin(ctx);
     return await ctx.db.query("appointments").collect();
   },
 });
@@ -48,6 +49,7 @@ export const updateStatus = mutation({
     ),
   },
   handler: async (ctx, args) => {
+    await enforceAdmin(ctx);
     await ctx.db.patch(args.appointmentId, { status: args.status });
   },
 });
