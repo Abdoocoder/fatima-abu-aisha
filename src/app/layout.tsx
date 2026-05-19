@@ -23,7 +23,12 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl">
       <body>
-        <ClerkProvider>
+        <ClerkProvider
+          signInUrl="/sign-in"
+          signUpUrl="/sign-up"
+          signInFallbackRedirectUrl="/dashboard"
+          signUpFallbackRedirectUrl="/dashboard"
+        >
           <ConvexClientProvider>
             <div className="min-h-screen flex flex-col">
               <Header />
