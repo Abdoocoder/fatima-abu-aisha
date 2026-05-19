@@ -1,42 +1,40 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
+"use client";
 
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Gavel, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import { ASSETS } from "@/src/constants";
+
+const navLinks = [
+  { name: "الرئيسية", path: "/" },
+  { name: "عن المحامية", path: "/about" },
+  { name: "مجالات الاختصاص", path: "/services" },
+  { name: "المكتبة القانونية", path: "/articles" },
+  { name: "اتصل بنا", path: "/contact" },
+];
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const location = useLocation();
-
-  const navLinks = [
-    { name: "الرئيسية", path: "/" },
-    { name: "عن المحامية", path: "/about" },
-    { name: "مجالات الاختصاص", path: "/practice-areas" },
-    { name: "المكتبة القانونية", path: "/library" },
-  ];
+  const pathname = usePathname();
 
   return (
     <header className="bg-white border-b border-brand-gray sticky top-0 z-50">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop h-20 flex flex-row-reverse justify-between items-center">
-        {/* Brand */}
-        <Link to="/" className="flex items-center gap-3 flex-row-reverse">
+        <Link href="/" className="flex items-center gap-3 flex-row-reverse">
           <Gavel className="text-brand-gold w-8 h-8" />
-          <span className="font-tajawal text-xl font-bold text-brand-navy">فاطمة أبو عيشة للمحاماة</span>
+          <span className="font-tajawal text-xl font-bold text-brand-navy">
+            فاطمة أبو عيشة للمحاماة
+          </span>
         </Link>
 
-        {/* Desktop Nav */}
         <nav className="hidden md:flex flex-row-reverse items-center gap-8">
           {navLinks.map((link) => (
             <Link
               key={link.path}
-              to={link.path}
+              href={link.path}
               className={`font-tajawal text-sm transition-all py-2 border-b-2 ${
-                location.pathname === link.path
+                pathname === link.path
                   ? "text-brand-gold border-brand-gold font-bold"
                   : "text-on-surface-variant border-transparent hover:text-brand-navy"
               }`}
@@ -46,10 +44,11 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Action / Toggle */}
         <div className="flex items-center gap-4 flex-row-reverse">
-          <button className="hidden md:block btn-gold px-6">طلب استشارة</button>
-          <button 
+          <button className="hidden md:block btn-gold px-6">
+            طلب استشارة
+          </button>
+          <button
             className="md:hidden p-2 text-brand-navy"
             onClick={() => setIsMenuOpen(true)}
             aria-label="فتح القائمة"
@@ -59,7 +58,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Drawer */}
       <AnimatePresence>
         {isMenuOpen && (
           <>
@@ -75,11 +73,17 @@ export default function Header() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="fixed inset-y-0 right-0 w-72 bg-white shadow-xl z-[70] md:hidden flex flex-col rtl"
+              className="fixed inset-y-0 right-0 w-72 bg-white shadow-xl z-[70] md:hidden flex flex-col"
             >
               <div className="p-6 flex justify-between items-center border-b border-brand-gray">
-                <span className="font-tajawal text-lg font-bold text-brand-navy">القائمة</span>
-                <button onClick={() => setIsMenuOpen(false)} className="p-2 text-on-surface-variant" aria-label="إغلاق القائمة">
+                <span className="font-tajawal text-lg font-bold text-brand-navy">
+                  القائمة
+                </span>
+                <button
+                  onClick={() => setIsMenuOpen(false)}
+                  className="p-2 text-on-surface-variant"
+                  aria-label="إغلاق القائمة"
+                >
                   <X className="w-6 h-6" />
                 </button>
               </div>
@@ -87,14 +91,14 @@ export default function Header() {
                 {navLinks.map((link) => (
                   <Link
                     key={link.path}
-                    to={link.path}
+                    href={link.path}
                     onClick={() => setIsMenuOpen(false)}
                     className={`px-6 py-4 flex items-center justify-between font-tajawal ${
-                      location.pathname === link.path
+                      pathname === link.path
                         ? "bg-brand-gray text-brand-gold font-bold"
                         : "text-on-surface-variant hover:bg-brand-gray"
                     }`}
-                   >
+                  >
                     {link.name}
                   </Link>
                 ))}

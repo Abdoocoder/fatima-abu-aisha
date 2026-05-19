@@ -1,8 +1,14 @@
+<!-- BEGIN:nextjs-agent-rules -->
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
+<!-- END:nextjs-agent-rules -->
+
 # Fatima Abu Aisha Legal Website — Agent Instructions
 
 ## Project Type
 
-Next.js 15 (App Router) SPA + Convex backend + Clerk auth. RTL Arabic. Deployed on Vercel.
+Next.js 16 (App Router) SPA + Convex backend + Clerk auth. RTL Arabic. Deployed on Vercel.
 
 ## Commands
 
@@ -44,7 +50,7 @@ npx convex deploy    # Deploy Convex functions to production
 ### Route Protection
 
 ```typescript
-// src/middleware.ts
+// src/proxy.ts
 // Protected routes: /dashboard/*, /admin/*
 // Public routes: /, /about, /services, /articles, /contact
 // Admin-only: /admin/*
@@ -118,3 +124,17 @@ Admin creates article → Convex mutation → Static page regeneration
 - Use Tailwind RTL utilities: `rtl:`, `ltr:` prefixes
 - `flex-row-reverse` for icon + text pairs in Arabic
 - Right-align text by default
+
+<!-- convex-ai-start -->
+
+This project uses [Convex](https://convex.dev) as its backend.
+
+When working on Convex code, **always read
+`convex/_generated/ai/guidelines.md` first** for important guidelines on
+how to correctly use Convex APIs and patterns. The file contains rules that
+override what you may have learned about Convex from training data.
+
+Convex agent skills for common tasks can be installed by running
+`npx convex ai-files install`.
+
+<!-- convex-ai-end -->
