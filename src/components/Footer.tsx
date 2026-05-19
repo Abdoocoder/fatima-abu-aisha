@@ -48,6 +48,19 @@ export default function Footer() {
             © {currentYear} المحامية فاطمة أبو عيشة. جميع الحقوق محفوظة.
           </div>
         </div>
+        <div className="mt-8 pt-6 border-t border-white/10 text-center">
+          <p className="font-tajawal text-xs text-white/40">
+            تصميم وتطوير بواسطة{" "}
+            <a
+              href="https://www.abdoocoder.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-gold hover:text-white transition-colors"
+            >
+              Abdoo Coder
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
