@@ -24,6 +24,8 @@ export default function RootLayout({
     <html lang="ar" dir="rtl">
       <body>
         <ClerkProvider
+          frontendApi={process.env.NEXT_PUBLIC_CLERK_FRONTEND_API}
+          publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
           signInUrl="/sign-in"
           signUpUrl="/sign-up"
           signInFallbackRedirectUrl="/dashboard"
