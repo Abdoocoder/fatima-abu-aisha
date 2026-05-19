@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Phone, MapPin, Send } from "lucide-react";
 import { useMutation } from "convex/react";
 import { api } from "@convex/_generated/api";
+import MagneticButton from "@/components/MagneticButton";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -122,15 +123,19 @@ export default function Contact() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
-                    <label
-                      htmlFor="name"
-                      className="block font-tajawal text-sm font-bold text-brand-navy mb-2"
-                    >
-                      الاسم الكامل
-                    </label>
+                    <div className="flex justify-between items-center mb-2">
+                      <label
+                        htmlFor="name"
+                        className="block font-tajawal text-sm font-bold text-brand-navy"
+                      >
+                        الاسم الكامل <span className="text-red-600" aria-hidden="true">*</span>
+                      </label>
+                    </div>
                     <input
                       id="name"
                       type="text"
+                      required
+                      aria-required="true"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                       className="w-full px-4 py-3 border border-brand-gray rounded-lg focus:ring-2 focus:ring-brand-gold outline-none font-tajawal"
@@ -138,15 +143,19 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label
-                      htmlFor="email"
-                      className="block font-tajawal text-sm font-bold text-brand-navy mb-2"
-                    >
-                      البريد الإلكتروني
-                    </label>
+                    <div className="flex justify-between items-center mb-2">
+                      <label
+                        htmlFor="email"
+                        className="block font-tajawal text-sm font-bold text-brand-navy"
+                      >
+                        البريد الإلكتروني <span className="text-red-600" aria-hidden="true">*</span>
+                      </label>
+                    </div>
                     <input
                       id="email"
                       type="email"
+                      required
+                      aria-required="true"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       className="w-full px-4 py-3 border border-brand-gray rounded-lg focus:ring-2 focus:ring-brand-gold outline-none font-tajawal"
@@ -156,15 +165,19 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label
-                    htmlFor="phone"
-                    className="block font-tajawal text-sm font-bold text-brand-navy mb-2"
-                  >
-                    رقم الهاتف
-                  </label>
+                  <div className="flex justify-between items-center mb-2">
+                    <label
+                      htmlFor="phone"
+                      className="block font-tajawal text-sm font-bold text-brand-navy"
+                    >
+                      رقم الهاتف <span className="text-red-600" aria-hidden="true">*</span>
+                    </label>
+                  </div>
                   <input
                     id="phone"
                     type="tel"
+                    required
+                    aria-required="true"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     className="w-full px-4 py-3 border border-brand-gray rounded-lg focus:ring-2 focus:ring-brand-gold outline-none font-tajawal"
@@ -173,15 +186,23 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label
-                    htmlFor="message"
-                    className="block font-tajawal text-sm font-bold text-brand-navy mb-2"
-                  >
-                    الرسالة
-                  </label>
+                  <div className="flex justify-between items-center mb-2">
+                    <label
+                      htmlFor="message"
+                      className="block font-tajawal text-sm font-bold text-brand-navy"
+                    >
+                      الرسالة <span className="text-red-600" aria-hidden="true">*</span>
+                    </label>
+                    <span className={`text-xs font-tajawal ${message.length > 900 ? 'text-red-600' : 'text-on-surface-variant'}`}>
+                      {message.length}/1000
+                    </span>
+                  </div>
                   <textarea
                     id="message"
                     rows={5}
+                    required
+                    aria-required="true"
+                    maxLength={1000}
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     className="w-full px-4 py-3 border border-brand-gray rounded-lg focus:ring-2 focus:ring-brand-gold outline-none font-tajawal resize-none"
@@ -193,14 +214,16 @@ export default function Contact() {
                   <p className="font-tajawal text-sm text-red-600">{error}</p>
                 )}
 
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="btn-primary px-8 py-4 text-lg disabled:opacity-60 disabled:cursor-not-allowed"
-                >
-                  {loading ? "جاري الإرسال..." : "إرسال الرسالة"}{" "}
-                  <Send className={`w-5 h-5 ${loading ? "animate-pulse" : ""}`} />
-                </button>
+                <MagneticButton className="w-full sm:w-auto">
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="btn-primary w-full sm:w-auto px-8 py-4 text-lg disabled:opacity-60 disabled:cursor-not-allowed"
+                  >
+                    {loading ? "جاري الإرسال..." : "إرسال الرسالة"}{" "}
+                    <Send className={`w-5 h-5 ${loading ? "animate-pulse" : ""}`} />
+                  </button>
+                </MagneticButton>
               </form>
             )}
           </div>
