@@ -1,0 +1,4175 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "next-env.d.ts",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "next-env.d.ts",
+      "id": "next_env_d_ts"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "tsconfig.json",
+      "id": "tsconfig_json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "community": 2,
+      "norm_label": "compileroptions",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "community": 2,
+      "norm_label": "target",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_target"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "community": 2,
+      "norm_label": "lib",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_lib"
+    },
+    {
+      "label": "allowJs",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "community": 2,
+      "norm_label": "allowjs",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_allowjs"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "community": 2,
+      "norm_label": "skiplibcheck",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_skiplibcheck"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "community": 2,
+      "norm_label": "strict",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_strict"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "community": 2,
+      "norm_label": "noemit",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_noemit"
+    },
+    {
+      "label": "esModuleInterop",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "community": 2,
+      "norm_label": "esmoduleinterop",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_esmoduleinterop"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "community": 2,
+      "norm_label": "module",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_module"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "community": 2,
+      "norm_label": "moduleresolution",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_moduleresolution"
+    },
+    {
+      "label": "resolveJsonModule",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "community": 2,
+      "norm_label": "resolvejsonmodule",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_resolvejsonmodule"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "community": 2,
+      "norm_label": "isolatedmodules",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_isolatedmodules"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "community": 2,
+      "norm_label": "jsx",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_jsx"
+    },
+    {
+      "label": "incremental",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "community": 2,
+      "norm_label": "incremental",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_incremental"
+    },
+    {
+      "label": "plugins",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "community": 2,
+      "norm_label": "plugins",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_plugins"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "community": 2,
+      "norm_label": "paths",
+      "id": "fatima_abu_aisha_tsconfig_compileroptions_paths"
+    },
+    {
+      "label": "@/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "community": 2,
+      "norm_label": "@/*",
+      "id": "fatima_abu_aisha_tsconfig_paths"
+    },
+    {
+      "label": "@convex/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L23",
+      "community": 2,
+      "norm_label": "@convex/*",
+      "id": "fatima_abu_aisha_tsconfig_paths_convex"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L26",
+      "community": 2,
+      "norm_label": "include",
+      "id": "fatima_abu_aisha_tsconfig_include"
+    },
+    {
+      "label": "exclude",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L34",
+      "community": 2,
+      "norm_label": "exclude",
+      "id": "fatima_abu_aisha_tsconfig_exclude"
+    },
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "community": 20,
+      "norm_label": "postcss.config.mjs",
+      "id": "postcss_config_mjs"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "community": 20,
+      "norm_label": "config",
+      "id": "fatima_abu_aisha_postcss_config_config"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "package.json",
+      "id": "package_json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "community": 3,
+      "norm_label": "name",
+      "id": "fatima_abu_aisha_package_name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "community": 3,
+      "norm_label": "version",
+      "id": "fatima_abu_aisha_package_version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "community": 3,
+      "norm_label": "private",
+      "id": "fatima_abu_aisha_package_private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "community": 3,
+      "norm_label": "scripts",
+      "id": "fatima_abu_aisha_package_scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "community": 3,
+      "norm_label": "dev",
+      "id": "fatima_abu_aisha_package_scripts_dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "community": 3,
+      "norm_label": "build",
+      "id": "fatima_abu_aisha_package_scripts_build"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "community": 3,
+      "norm_label": "start",
+      "id": "fatima_abu_aisha_package_scripts_start"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "community": 3,
+      "norm_label": "lint",
+      "id": "fatima_abu_aisha_package_scripts_lint"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "community": 3,
+      "norm_label": "dependencies",
+      "id": "fatima_abu_aisha_package_dependencies"
+    },
+    {
+      "label": "@clerk/nextjs",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "community": 3,
+      "norm_label": "@clerk/nextjs",
+      "id": "fatima_abu_aisha_package_dependencies_clerk_nextjs"
+    },
+    {
+      "label": "@convex-dev/auth",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "community": 3,
+      "norm_label": "@convex-dev/auth",
+      "id": "fatima_abu_aisha_package_dependencies_convex_dev_auth"
+    },
+    {
+      "label": "convex",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "community": 3,
+      "norm_label": "convex",
+      "id": "fatima_abu_aisha_package_dependencies_convex"
+    },
+    {
+      "label": "lucide-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "community": 3,
+      "norm_label": "lucide-react",
+      "id": "fatima_abu_aisha_package_dependencies_lucide_react"
+    },
+    {
+      "label": "motion",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "community": 3,
+      "norm_label": "motion",
+      "id": "fatima_abu_aisha_package_dependencies_motion"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "community": 3,
+      "norm_label": "next",
+      "id": "fatima_abu_aisha_package_dependencies_next"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "community": 3,
+      "norm_label": "react",
+      "id": "fatima_abu_aisha_package_dependencies_react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "community": 3,
+      "norm_label": "react-dom",
+      "id": "fatima_abu_aisha_package_dependencies_react_dom"
+    },
+    {
+      "label": "svix",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "community": 3,
+      "norm_label": "svix",
+      "id": "fatima_abu_aisha_package_dependencies_svix"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "community": 8,
+      "norm_label": "devdependencies",
+      "id": "fatima_abu_aisha_package_devdependencies"
+    },
+    {
+      "label": "@tailwindcss/postcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "community": 8,
+      "norm_label": "@tailwindcss/postcss",
+      "id": "fatima_abu_aisha_package_devdependencies_tailwindcss_postcss"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "community": 8,
+      "norm_label": "@types/node",
+      "id": "fatima_abu_aisha_package_devdependencies_types_node"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "community": 8,
+      "norm_label": "@types/react",
+      "id": "fatima_abu_aisha_package_devdependencies_types_react"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "community": 8,
+      "norm_label": "eslint",
+      "id": "fatima_abu_aisha_package_devdependencies_eslint"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "community": 8,
+      "norm_label": "tailwindcss",
+      "id": "fatima_abu_aisha_package_devdependencies_tailwindcss"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "community": 8,
+      "norm_label": "typescript",
+      "id": "fatima_abu_aisha_package_devdependencies_typescript"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "community": 25,
+      "norm_label": "next.config.ts",
+      "id": "next_config_ts"
+    },
+    {
+      "label": "skills-lock.json",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "skills-lock.json",
+      "id": "skills_lock_json"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L2",
+      "community": 4,
+      "norm_label": "version",
+      "id": "fatima_abu_aisha_skills_lock_version"
+    },
+    {
+      "label": "skills",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L3",
+      "community": 4,
+      "norm_label": "skills",
+      "id": "fatima_abu_aisha_skills_lock_skills"
+    },
+    {
+      "label": "convex",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L4",
+      "community": 4,
+      "norm_label": "convex",
+      "id": "fatima_abu_aisha_skills_lock_skills_convex"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L5",
+      "community": 4,
+      "norm_label": "source",
+      "id": "fatima_abu_aisha_skills_lock_convex_source"
+    },
+    {
+      "label": "sourceType",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L6",
+      "community": 4,
+      "norm_label": "sourcetype",
+      "id": "fatima_abu_aisha_skills_lock_convex_sourcetype"
+    },
+    {
+      "label": "skillPath",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L7",
+      "community": 4,
+      "norm_label": "skillpath",
+      "id": "fatima_abu_aisha_skills_lock_convex_skillpath"
+    },
+    {
+      "label": "computedHash",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L8",
+      "community": 4,
+      "norm_label": "computedhash",
+      "id": "fatima_abu_aisha_skills_lock_convex_computedhash"
+    },
+    {
+      "label": "convex-create-component",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L10",
+      "community": 4,
+      "norm_label": "convex-create-component",
+      "id": "fatima_abu_aisha_skills_lock_skills_convex_create_component"
+    },
+    {
+      "label": "convex-migration-helper",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L16",
+      "community": 4,
+      "norm_label": "convex-migration-helper",
+      "id": "fatima_abu_aisha_skills_lock_skills_convex_migration_helper"
+    },
+    {
+      "label": "convex-performance-audit",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L22",
+      "community": 4,
+      "norm_label": "convex-performance-audit",
+      "id": "fatima_abu_aisha_skills_lock_skills_convex_performance_audit"
+    },
+    {
+      "label": "convex-quickstart",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L28",
+      "community": 4,
+      "norm_label": "convex-quickstart",
+      "id": "fatima_abu_aisha_skills_lock_skills_convex_quickstart"
+    },
+    {
+      "label": "convex-setup-auth",
+      "file_type": "code",
+      "source_file": "skills-lock.json",
+      "source_location": "L34",
+      "community": 4,
+      "norm_label": "convex-setup-auth",
+      "id": "fatima_abu_aisha_skills_lock_skills_convex_setup_auth"
+    },
+    {
+      "label": "vercel.json",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L1",
+      "community": 23,
+      "norm_label": "vercel.json",
+      "id": "vercel_json"
+    },
+    {
+      "label": "framework",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L2",
+      "community": 23,
+      "norm_label": "framework",
+      "id": "fatima_abu_aisha_vercel_framework"
+    },
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "eslint.config.mjs",
+      "id": "eslint_config_mjs"
+    },
+    {
+      "label": "schema.ts",
+      "file_type": "code",
+      "source_file": "convex/schema.ts",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "schema.ts",
+      "id": "convex_schema_ts"
+    },
+    {
+      "label": "http.ts",
+      "file_type": "code",
+      "source_file": "convex/http.ts",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "http.ts",
+      "id": "convex_http_ts"
+    },
+    {
+      "label": "http",
+      "file_type": "code",
+      "source_file": "convex/http.ts",
+      "source_location": "L7",
+      "community": 0,
+      "norm_label": "http",
+      "id": "convex_http_http"
+    },
+    {
+      "label": "validateRequest()",
+      "file_type": "code",
+      "source_file": "convex/http.ts",
+      "source_location": "L42",
+      "community": 0,
+      "norm_label": "validaterequest()",
+      "id": "convex_http_validaterequest"
+    },
+    {
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "convex/auth.ts",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "auth.ts",
+      "id": "convex_auth_ts"
+    },
+    {
+      "label": "getUserId()",
+      "file_type": "code",
+      "source_file": "convex/auth.ts",
+      "source_location": "L3",
+      "community": 0,
+      "norm_label": "getuserid()",
+      "id": "convex_auth_getuserid"
+    },
+    {
+      "label": "enforceAdmin()",
+      "file_type": "code",
+      "source_file": "convex/auth.ts",
+      "source_location": "L15",
+      "community": 0,
+      "norm_label": "enforceadmin()",
+      "id": "convex_auth_enforceadmin"
+    },
+    {
+      "label": "getClientUser()",
+      "file_type": "code",
+      "source_file": "convex/auth.ts",
+      "source_location": "L29",
+      "community": 0,
+      "norm_label": "getclientuser()",
+      "id": "convex_auth_getclientuser"
+    },
+    {
+      "label": "contacts.ts",
+      "file_type": "code",
+      "source_file": "convex/contacts.ts",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "contacts.ts",
+      "id": "convex_contacts_ts"
+    },
+    {
+      "label": "getAll",
+      "file_type": "code",
+      "source_file": "convex/contacts.ts",
+      "source_location": "L5",
+      "community": 0,
+      "norm_label": "getall",
+      "id": "convex_contacts_getall"
+    },
+    {
+      "label": "submit",
+      "file_type": "code",
+      "source_file": "convex/contacts.ts",
+      "source_location": "L12",
+      "community": 0,
+      "norm_label": "submit",
+      "id": "convex_contacts_submit"
+    },
+    {
+      "label": "users.ts",
+      "file_type": "code",
+      "source_file": "convex/users.ts",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "users.ts",
+      "id": "convex_users_ts"
+    },
+    {
+      "label": "upsertFromClerk",
+      "file_type": "code",
+      "source_file": "convex/users.ts",
+      "source_location": "L4",
+      "community": 0,
+      "norm_label": "upsertfromclerk",
+      "id": "convex_users_upsertfromclerk"
+    },
+    {
+      "label": "deleteFromClerk",
+      "file_type": "code",
+      "source_file": "convex/users.ts",
+      "source_location": "L43",
+      "community": 0,
+      "norm_label": "deletefromclerk",
+      "id": "convex_users_deletefromclerk"
+    },
+    {
+      "label": "articles.ts",
+      "file_type": "code",
+      "source_file": "convex/articles.ts",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "articles.ts",
+      "id": "convex_articles_ts"
+    },
+    {
+      "label": "create",
+      "file_type": "code",
+      "source_file": "convex/articles.ts",
+      "source_location": "L4",
+      "community": 9,
+      "norm_label": "create",
+      "id": "convex_articles_create"
+    },
+    {
+      "label": "update",
+      "file_type": "code",
+      "source_file": "convex/articles.ts",
+      "source_location": "L30",
+      "community": 9,
+      "norm_label": "update",
+      "id": "convex_articles_update"
+    },
+    {
+      "label": "remove",
+      "file_type": "code",
+      "source_file": "convex/articles.ts",
+      "source_location": "L47",
+      "community": 9,
+      "norm_label": "remove",
+      "id": "convex_articles_remove"
+    },
+    {
+      "label": "getAll",
+      "file_type": "code",
+      "source_file": "convex/articles.ts",
+      "source_location": "L54",
+      "community": 9,
+      "norm_label": "getall",
+      "id": "convex_articles_getall"
+    },
+    {
+      "label": "getPublished",
+      "file_type": "code",
+      "source_file": "convex/articles.ts",
+      "source_location": "L60",
+      "community": 9,
+      "norm_label": "getpublished",
+      "id": "convex_articles_getpublished"
+    },
+    {
+      "label": "getBySlug",
+      "file_type": "code",
+      "source_file": "convex/articles.ts",
+      "source_location": "L69",
+      "community": 9,
+      "norm_label": "getbyslug",
+      "id": "convex_articles_getbyslug"
+    },
+    {
+      "label": "documents.ts",
+      "file_type": "code",
+      "source_file": "convex/documents.ts",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "documents.ts",
+      "id": "convex_documents_ts"
+    },
+    {
+      "label": "upload",
+      "file_type": "code",
+      "source_file": "convex/documents.ts",
+      "source_location": "L5",
+      "community": 0,
+      "norm_label": "upload",
+      "id": "convex_documents_upload"
+    },
+    {
+      "label": "getMyDocuments",
+      "file_type": "code",
+      "source_file": "convex/documents.ts",
+      "source_location": "L23",
+      "community": 0,
+      "norm_label": "getmydocuments",
+      "id": "convex_documents_getmydocuments"
+    },
+    {
+      "label": "getAll",
+      "file_type": "code",
+      "source_file": "convex/documents.ts",
+      "source_location": "L35",
+      "community": 0,
+      "norm_label": "getall",
+      "id": "convex_documents_getall"
+    },
+    {
+      "label": "appointments.ts",
+      "file_type": "code",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "appointments.ts",
+      "id": "convex_appointments_ts"
+    },
+    {
+      "label": "create",
+      "file_type": "code",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L5",
+      "community": 0,
+      "norm_label": "create",
+      "id": "convex_appointments_create"
+    },
+    {
+      "label": "getMyAppointments",
+      "file_type": "code",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L23",
+      "community": 0,
+      "norm_label": "getmyappointments",
+      "id": "convex_appointments_getmyappointments"
+    },
+    {
+      "label": "getAll",
+      "file_type": "code",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L35",
+      "community": 0,
+      "norm_label": "getall",
+      "id": "convex_appointments_getall"
+    },
+    {
+      "label": "updateStatus",
+      "file_type": "code",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L42",
+      "community": 0,
+      "norm_label": "updatestatus",
+      "id": "convex_appointments_updatestatus"
+    },
+    {
+      "label": "auth.config.ts",
+      "file_type": "code",
+      "source_file": "convex/auth.config.ts",
+      "source_location": "L1",
+      "community": 26,
+      "norm_label": "auth.config.ts",
+      "id": "convex_auth_config_ts"
+    },
+    {
+      "label": "server.d.ts",
+      "file_type": "code",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L1",
+      "community": 10,
+      "norm_label": "server.d.ts",
+      "id": "convex_generated_server_d_ts"
+    },
+    {
+      "label": "QueryCtx",
+      "file_type": "code",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L107",
+      "community": 10,
+      "norm_label": "queryctx",
+      "id": "generated_server_d_queryctx"
+    },
+    {
+      "label": "MutationCtx",
+      "file_type": "code",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L115",
+      "community": 10,
+      "norm_label": "mutationctx",
+      "id": "generated_server_d_mutationctx"
+    },
+    {
+      "label": "ActionCtx",
+      "file_type": "code",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L123",
+      "community": 10,
+      "norm_label": "actionctx",
+      "id": "generated_server_d_actionctx"
+    },
+    {
+      "label": "DatabaseReader",
+      "file_type": "code",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L132",
+      "community": 10,
+      "norm_label": "databasereader",
+      "id": "generated_server_d_databasereader"
+    },
+    {
+      "label": "DatabaseWriter",
+      "file_type": "code",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L143",
+      "community": 10,
+      "norm_label": "databasewriter",
+      "id": "generated_server_d_databasewriter"
+    },
+    {
+      "label": "dataModel.d.ts",
+      "file_type": "code",
+      "source_file": "convex/_generated/dataModel.d.ts",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "datamodel.d.ts",
+      "id": "convex_generated_datamodel_d_ts"
+    },
+    {
+      "label": "TableNames",
+      "file_type": "code",
+      "source_file": "convex/_generated/dataModel.d.ts",
+      "source_location": "L23",
+      "community": 13,
+      "norm_label": "tablenames",
+      "id": "generated_datamodel_d_tablenames"
+    },
+    {
+      "label": "Doc",
+      "file_type": "code",
+      "source_file": "convex/_generated/dataModel.d.ts",
+      "source_location": "L30",
+      "community": 13,
+      "norm_label": "doc",
+      "id": "generated_datamodel_d_doc"
+    },
+    {
+      "label": "Id",
+      "file_type": "code",
+      "source_file": "convex/_generated/dataModel.d.ts",
+      "source_location": "L48",
+      "community": 13,
+      "norm_label": "id",
+      "id": "generated_datamodel_d_id"
+    },
+    {
+      "label": "api.d.ts",
+      "file_type": "code",
+      "source_file": "convex/_generated/api.d.ts",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "api.d.ts",
+      "id": "convex_generated_api_d_ts"
+    },
+    {
+      "label": "api.js",
+      "file_type": "code",
+      "source_file": "convex/_generated/api.js",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "api.js",
+      "id": "convex_generated_api_js"
+    },
+    {
+      "label": "components",
+      "file_type": "code",
+      "source_file": "convex/_generated/api.js",
+      "source_location": "L23",
+      "community": 1,
+      "norm_label": "components",
+      "id": "generated_api_components"
+    },
+    {
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "convex/_generated/server.js",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "server.js",
+      "id": "convex_generated_server_js"
+    },
+    {
+      "label": "ai-files.state.json",
+      "file_type": "code",
+      "source_file": "convex/_generated/ai/ai-files.state.json",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "ai-files.state.json",
+      "id": "convex_generated_ai_ai_files_state_json"
+    },
+    {
+      "label": "guidelinesHash",
+      "file_type": "code",
+      "source_file": "convex/_generated/ai/ai-files.state.json",
+      "source_location": "L2",
+      "community": 12,
+      "norm_label": "guidelineshash",
+      "id": "ai_ai_files_state_guidelineshash"
+    },
+    {
+      "label": "agentsMdSectionHash",
+      "file_type": "code",
+      "source_file": "convex/_generated/ai/ai-files.state.json",
+      "source_location": "L3",
+      "community": 12,
+      "norm_label": "agentsmdsectionhash",
+      "id": "ai_ai_files_state_agentsmdsectionhash"
+    },
+    {
+      "label": "claudeMdHash",
+      "file_type": "code",
+      "source_file": "convex/_generated/ai/ai-files.state.json",
+      "source_location": "L4",
+      "community": 12,
+      "norm_label": "claudemdhash",
+      "id": "ai_ai_files_state_claudemdhash"
+    },
+    {
+      "label": "agentSkillsSha",
+      "file_type": "code",
+      "source_file": "convex/_generated/ai/ai-files.state.json",
+      "source_location": "L5",
+      "community": 12,
+      "norm_label": "agentskillssha",
+      "id": "ai_ai_files_state_agentskillssha"
+    },
+    {
+      "label": "repo.json",
+      "file_type": "code",
+      "source_file": ".vercel/repo.json",
+      "source_location": "L1",
+      "community": 19,
+      "norm_label": "repo.json",
+      "id": "vercel_repo_json"
+    },
+    {
+      "label": "remoteName",
+      "file_type": "code",
+      "source_file": ".vercel/repo.json",
+      "source_location": "L2",
+      "community": 19,
+      "norm_label": "remotename",
+      "id": "vercel_repo_remotename"
+    },
+    {
+      "label": "projects",
+      "file_type": "code",
+      "source_file": ".vercel/repo.json",
+      "source_location": "L3",
+      "community": 19,
+      "norm_label": "projects",
+      "id": "vercel_repo_projects"
+    },
+    {
+      "label": "settings.local.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "settings.local.json",
+      "id": "claude_settings_local_json"
+    },
+    {
+      "label": "permissions",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "community": 16,
+      "norm_label": "permissions",
+      "id": "claude_settings_local_permissions"
+    },
+    {
+      "label": "allow",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L3",
+      "community": 16,
+      "norm_label": "allow",
+      "id": "claude_settings_local_permissions_allow"
+    },
+    {
+      "label": "constants.ts",
+      "file_type": "code",
+      "source_file": "src/constants.ts",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "constants.ts",
+      "id": "src_constants_ts"
+    },
+    {
+      "label": "ASSETS",
+      "file_type": "code",
+      "source_file": "src/constants.ts",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "assets",
+      "id": "src_constants_assets"
+    },
+    {
+      "label": "PRACTICE_AREAS",
+      "file_type": "code",
+      "source_file": "src/constants.ts",
+      "source_location": "L13",
+      "community": 5,
+      "norm_label": "practice_areas",
+      "id": "src_constants_practice_areas"
+    },
+    {
+      "label": "middleware.ts",
+      "file_type": "code",
+      "source_file": "src/middleware.ts",
+      "source_location": "L1",
+      "community": 14,
+      "norm_label": "middleware.ts",
+      "id": "src_middleware_ts"
+    },
+    {
+      "label": "isPublicRoute",
+      "file_type": "code",
+      "source_file": "src/middleware.ts",
+      "source_location": "L4",
+      "community": 14,
+      "norm_label": "ispublicroute",
+      "id": "src_middleware_ispublicroute"
+    },
+    {
+      "label": "isAdminRoute",
+      "file_type": "code",
+      "source_file": "src/middleware.ts",
+      "source_location": "L18",
+      "community": 14,
+      "norm_label": "isadminroute",
+      "id": "src_middleware_isadminroute"
+    },
+    {
+      "label": "signInUrl",
+      "file_type": "code",
+      "source_file": "src/middleware.ts",
+      "source_location": "L24",
+      "community": 14,
+      "norm_label": "signinurl",
+      "id": "src_middleware_signinurl"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "src/middleware.ts",
+      "source_location": "L39",
+      "community": 14,
+      "norm_label": "config",
+      "id": "src_middleware_config"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "layout.tsx",
+      "id": "src_app_layout_tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L8",
+      "community": 6,
+      "norm_label": "metadata",
+      "id": "app_layout_metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L18",
+      "community": 6,
+      "norm_label": "rootlayout()",
+      "id": "app_layout_rootlayout"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "page.tsx",
+      "id": "src_app_page_tsx"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L7",
+      "community": 5,
+      "norm_label": "home()",
+      "id": "app_page_home"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/sitemap/page.tsx",
+      "source_location": "L1",
+      "community": 15,
+      "norm_label": "page.tsx",
+      "id": "src_app_sitemap_page_tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/sitemap/page.tsx",
+      "source_location": "L5",
+      "community": 15,
+      "norm_label": "metadata",
+      "id": "sitemap_page_metadata"
+    },
+    {
+      "label": "LINKS",
+      "file_type": "code",
+      "source_file": "src/app/sitemap/page.tsx",
+      "source_location": "L11",
+      "community": 15,
+      "norm_label": "links",
+      "id": "sitemap_page_links"
+    },
+    {
+      "label": "Sitemap()",
+      "file_type": "code",
+      "source_file": "src/app/sitemap/page.tsx",
+      "source_location": "L21",
+      "community": 15,
+      "norm_label": "sitemap()",
+      "id": "sitemap_page_sitemap"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/articles/page.tsx",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "page.tsx",
+      "id": "src_app_articles_page_tsx"
+    },
+    {
+      "label": "ARTICLES",
+      "file_type": "code",
+      "source_file": "src/app/articles/page.tsx",
+      "source_location": "L7",
+      "community": 5,
+      "norm_label": "articles",
+      "id": "articles_page_articles"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/articles/[slug]/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_articles_slug_page_tsx"
+    },
+    {
+      "label": "ArticlePage()",
+      "file_type": "code",
+      "source_file": "src/app/articles/[slug]/page.tsx",
+      "source_location": "L9",
+      "community": 1,
+      "norm_label": "articlepage()",
+      "id": "slug_page_articlepage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/sign-in/[[...sign-in]]/page.tsx",
+      "source_location": "L1",
+      "community": 21,
+      "norm_label": "page.tsx",
+      "id": "src_app_sign_in_sign_in_page_tsx"
+    },
+    {
+      "label": "SignInPage()",
+      "file_type": "code",
+      "source_file": "src/app/sign-in/[[...sign-in]]/page.tsx",
+      "source_location": "L6",
+      "community": 21,
+      "norm_label": "signinpage()",
+      "id": "sign_in_page_signinpage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_admin_page_tsx"
+    },
+    {
+      "label": "AdminDashboard()",
+      "file_type": "code",
+      "source_file": "src/app/admin/page.tsx",
+      "source_location": "L8",
+      "community": 1,
+      "norm_label": "admindashboard()",
+      "id": "admin_page_admindashboard"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/articles/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_admin_articles_page_tsx"
+    },
+    {
+      "label": "AdminArticles()",
+      "file_type": "code",
+      "source_file": "src/app/admin/articles/page.tsx",
+      "source_location": "L8",
+      "community": 1,
+      "norm_label": "adminarticles()",
+      "id": "articles_page_adminarticles"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/articles/[id]/edit/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_admin_articles_id_edit_page_tsx"
+    },
+    {
+      "label": "EditArticle()",
+      "file_type": "code",
+      "source_file": "src/app/admin/articles/[id]/edit/page.tsx",
+      "source_location": "L11",
+      "community": 1,
+      "norm_label": "editarticle()",
+      "id": "edit_page_editarticle"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/articles/new/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_admin_articles_new_page_tsx"
+    },
+    {
+      "label": "NewArticle()",
+      "file_type": "code",
+      "source_file": "src/app/admin/articles/new/page.tsx",
+      "source_location": "L10",
+      "community": 1,
+      "norm_label": "newarticle()",
+      "id": "new_page_newarticle"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/documents/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_admin_documents_page_tsx"
+    },
+    {
+      "label": "AdminDocuments()",
+      "file_type": "code",
+      "source_file": "src/app/admin/documents/page.tsx",
+      "source_location": "L8",
+      "community": 1,
+      "norm_label": "admindocuments()",
+      "id": "documents_page_admindocuments"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/appointments/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_admin_appointments_page_tsx"
+    },
+    {
+      "label": "STATUS_MAP",
+      "file_type": "code",
+      "source_file": "src/app/admin/appointments/page.tsx",
+      "source_location": "L9",
+      "community": 1,
+      "norm_label": "status_map",
+      "id": "appointments_page_status_map"
+    },
+    {
+      "label": "AdminAppointments()",
+      "file_type": "code",
+      "source_file": "src/app/admin/appointments/page.tsx",
+      "source_location": "L15",
+      "community": 1,
+      "norm_label": "adminappointments()",
+      "id": "appointments_page_adminappointments"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/contacts/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_admin_contacts_page_tsx"
+    },
+    {
+      "label": "AdminContacts()",
+      "file_type": "code",
+      "source_file": "src/app/admin/contacts/page.tsx",
+      "source_location": "L8",
+      "community": 1,
+      "norm_label": "admincontacts()",
+      "id": "contacts_page_admincontacts"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/terms/page.tsx",
+      "source_location": "L1",
+      "community": 18,
+      "norm_label": "page.tsx",
+      "id": "src_app_terms_page_tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/terms/page.tsx",
+      "source_location": "L5",
+      "community": 18,
+      "norm_label": "metadata",
+      "id": "terms_page_metadata"
+    },
+    {
+      "label": "Terms()",
+      "file_type": "code",
+      "source_file": "src/app/terms/page.tsx",
+      "source_location": "L11",
+      "community": 18,
+      "norm_label": "terms()",
+      "id": "terms_page_terms"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/contact/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_contact_page_tsx"
+    },
+    {
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "src/app/contact/page.tsx",
+      "source_location": "L8",
+      "community": 1,
+      "norm_label": "contact()",
+      "id": "contact_page_contact"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/privacy/page.tsx",
+      "source_location": "L1",
+      "community": 17,
+      "norm_label": "page.tsx",
+      "id": "src_app_privacy_page_tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/privacy/page.tsx",
+      "source_location": "L5",
+      "community": 17,
+      "norm_label": "metadata",
+      "id": "privacy_page_metadata"
+    },
+    {
+      "label": "Privacy()",
+      "file_type": "code",
+      "source_file": "src/app/privacy/page.tsx",
+      "source_location": "L11",
+      "community": 17,
+      "norm_label": "privacy()",
+      "id": "privacy_page_privacy"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/dashboard/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_dashboard_page_tsx"
+    },
+    {
+      "label": "Dashboard()",
+      "file_type": "code",
+      "source_file": "src/app/dashboard/page.tsx",
+      "source_location": "L9",
+      "community": 1,
+      "norm_label": "dashboard()",
+      "id": "dashboard_page_dashboard"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/dashboard/documents/page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "src_app_dashboard_documents_page_tsx"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/dashboard/appointments/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "src_app_dashboard_appointments_page_tsx"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/services/page.tsx",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "page.tsx",
+      "id": "src_app_services_page_tsx"
+    },
+    {
+      "label": "Services()",
+      "file_type": "code",
+      "source_file": "src/app/services/page.tsx",
+      "source_location": "L3",
+      "community": 11,
+      "norm_label": "services()",
+      "id": "services_page_services"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/sign-up/[[...sign-up]]/page.tsx",
+      "source_location": "L1",
+      "community": 22,
+      "norm_label": "page.tsx",
+      "id": "src_app_sign_up_sign_up_page_tsx"
+    },
+    {
+      "label": "SignUpPage()",
+      "file_type": "code",
+      "source_file": "src/app/sign-up/[[...sign-up]]/page.tsx",
+      "source_location": "L6",
+      "community": 22,
+      "norm_label": "signuppage()",
+      "id": "sign_up_page_signuppage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/about/page.tsx",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "page.tsx",
+      "id": "src_app_about_page_tsx"
+    },
+    {
+      "label": "About()",
+      "file_type": "code",
+      "source_file": "src/app/about/page.tsx",
+      "source_location": "L5",
+      "community": 5,
+      "norm_label": "about()",
+      "id": "about_page_about"
+    },
+    {
+      "label": "MagneticButton.tsx",
+      "file_type": "code",
+      "source_file": "src/components/MagneticButton.tsx",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "magneticbutton.tsx",
+      "id": "src_components_magneticbutton_tsx"
+    },
+    {
+      "label": "MagneticButtonProps",
+      "file_type": "code",
+      "source_file": "src/components/MagneticButton.tsx",
+      "source_location": "L6",
+      "community": 6,
+      "norm_label": "magneticbuttonprops",
+      "id": "components_magneticbutton_magneticbuttonprops"
+    },
+    {
+      "label": "Header.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Header.tsx",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "header.tsx",
+      "id": "src_components_header_tsx"
+    },
+    {
+      "label": "navLinks",
+      "file_type": "code",
+      "source_file": "src/components/Header.tsx",
+      "source_location": "L10",
+      "community": 6,
+      "norm_label": "navlinks",
+      "id": "components_header_navlinks"
+    },
+    {
+      "label": "Header()",
+      "file_type": "code",
+      "source_file": "src/components/Header.tsx",
+      "source_location": "L18",
+      "community": 6,
+      "norm_label": "header()",
+      "id": "components_header_header"
+    },
+    {
+      "label": "ServicesGrid.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ServicesGrid.tsx",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "servicesgrid.tsx",
+      "id": "src_components_servicesgrid_tsx"
+    },
+    {
+      "label": "SERVICES",
+      "file_type": "code",
+      "source_file": "src/components/ServicesGrid.tsx",
+      "source_location": "L14",
+      "community": 11,
+      "norm_label": "services",
+      "id": "components_servicesgrid_services"
+    },
+    {
+      "label": "containerVariants",
+      "file_type": "code",
+      "source_file": "src/components/ServicesGrid.tsx",
+      "source_location": "L54",
+      "community": 11,
+      "norm_label": "containervariants",
+      "id": "components_servicesgrid_containervariants"
+    },
+    {
+      "label": "itemVariants",
+      "file_type": "code",
+      "source_file": "src/components/ServicesGrid.tsx",
+      "source_location": "L62",
+      "community": 11,
+      "norm_label": "itemvariants",
+      "id": "components_servicesgrid_itemvariants"
+    },
+    {
+      "label": "ICON_MAP",
+      "file_type": "code",
+      "source_file": "src/components/PracticeAreasGrid.tsx",
+      "source_location": "L8",
+      "community": 5,
+      "norm_label": "icon_map",
+      "id": "components_practiceareasgrid_icon_map"
+    },
+    {
+      "label": "containerVariants",
+      "file_type": "code",
+      "source_file": "src/components/PracticeAreasGrid.tsx",
+      "source_location": "L14",
+      "community": 5,
+      "norm_label": "containervariants",
+      "id": "components_practiceareasgrid_containervariants"
+    },
+    {
+      "label": "itemVariants",
+      "file_type": "code",
+      "source_file": "src/components/PracticeAreasGrid.tsx",
+      "source_location": "L22",
+      "community": 5,
+      "norm_label": "itemvariants",
+      "id": "components_practiceareasgrid_itemvariants"
+    },
+    {
+      "label": "ConvexClientProvider.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ConvexClientProvider.tsx",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "convexclientprovider.tsx",
+      "id": "src_components_convexclientprovider_tsx"
+    },
+    {
+      "label": "convex",
+      "file_type": "code",
+      "source_file": "src/components/ConvexClientProvider.tsx",
+      "source_location": "L8",
+      "community": 6,
+      "norm_label": "convex",
+      "id": "components_convexclientprovider_convex"
+    },
+    {
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "footer.tsx",
+      "id": "src_components_footer_tsx"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": "L4",
+      "community": 6,
+      "norm_label": "footer()",
+      "id": "components_footer_footer"
+    },
+    {
+      "label": "Convex Schema",
+      "file_type": "code",
+      "source_file": "convex/schema.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "convex_schema",
+      "community": 7,
+      "norm_label": "convex schema"
+    },
+    {
+      "label": "Convex Auth Helpers",
+      "file_type": "code",
+      "source_file": "convex/auth.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "convex_auth",
+      "community": 7,
+      "norm_label": "convex auth helpers"
+    },
+    {
+      "label": "Convex HTTP Actions",
+      "file_type": "code",
+      "source_file": "convex/http.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "convex_http",
+      "community": 7,
+      "norm_label": "convex http actions"
+    },
+    {
+      "label": "Contacts Module",
+      "file_type": "code",
+      "source_file": "convex/contacts.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "convex_contacts",
+      "community": 7,
+      "norm_label": "contacts module"
+    },
+    {
+      "label": "Appointments Module",
+      "file_type": "code",
+      "source_file": "convex/appointments.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "convex_appointments",
+      "community": 7,
+      "norm_label": "appointments module"
+    },
+    {
+      "label": "Documents Module",
+      "file_type": "code",
+      "source_file": "convex/documents.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "convex_documents",
+      "community": 7,
+      "norm_label": "documents module"
+    },
+    {
+      "label": "Articles Module",
+      "file_type": "code",
+      "source_file": "convex/articles.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "convex_articles",
+      "community": 7,
+      "norm_label": "articles module"
+    },
+    {
+      "label": "Next.js Middleware",
+      "file_type": "code",
+      "source_file": "src/middleware.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "middleware_ts",
+      "community": 7,
+      "norm_label": "next.js middleware"
+    },
+    {
+      "label": "Clerk Authentication",
+      "file_type": "concept",
+      "source_file": "PRODUCT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "clerk_auth",
+      "community": 7,
+      "norm_label": "clerk authentication"
+    },
+    {
+      "label": "Visual Theme & Atmosphere",
+      "file_type": "document",
+      "source_file": "DESIGN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "design_system",
+      "community": 27,
+      "norm_label": "visual theme & atmosphere"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tsconfig_json",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tsconfig_json",
+      "target": "fatima_abu_aisha_tsconfig_include"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tsconfig_json",
+      "target": "fatima_abu_aisha_tsconfig_exclude"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_target"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_lib"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_allowjs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_skiplibcheck"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_strict"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_noemit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_esmoduleinterop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_module"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_moduleresolution"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_resolvejsonmodule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_isolatedmodules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_jsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_incremental"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_plugins"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions",
+      "target": "fatima_abu_aisha_tsconfig_compileroptions_paths"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions_paths",
+      "target": "fatima_abu_aisha_tsconfig_paths"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_tsconfig_compileroptions_paths",
+      "target": "fatima_abu_aisha_tsconfig_paths_convex"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "postcss_config_mjs",
+      "target": "fatima_abu_aisha_postcss_config_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "fatima_abu_aisha_package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "fatima_abu_aisha_package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "fatima_abu_aisha_package_private"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "fatima_abu_aisha_package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "fatima_abu_aisha_package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "fatima_abu_aisha_package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_scripts",
+      "target": "fatima_abu_aisha_package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_scripts",
+      "target": "fatima_abu_aisha_package_scripts_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_scripts",
+      "target": "fatima_abu_aisha_package_scripts_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_scripts",
+      "target": "fatima_abu_aisha_package_scripts_lint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_dependencies",
+      "target": "fatima_abu_aisha_package_dependencies_clerk_nextjs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_dependencies",
+      "target": "fatima_abu_aisha_package_dependencies_convex_dev_auth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_dependencies",
+      "target": "fatima_abu_aisha_package_dependencies_convex"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_dependencies",
+      "target": "fatima_abu_aisha_package_dependencies_lucide_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_dependencies",
+      "target": "fatima_abu_aisha_package_dependencies_motion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_dependencies",
+      "target": "fatima_abu_aisha_package_dependencies_next"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_dependencies",
+      "target": "fatima_abu_aisha_package_dependencies_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_dependencies",
+      "target": "fatima_abu_aisha_package_dependencies_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_dependencies",
+      "target": "fatima_abu_aisha_package_dependencies_svix"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_devdependencies",
+      "target": "fatima_abu_aisha_package_devdependencies_tailwindcss_postcss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_devdependencies",
+      "target": "fatima_abu_aisha_package_devdependencies_types_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_devdependencies",
+      "target": "fatima_abu_aisha_package_devdependencies_types_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_devdependencies",
+      "target": "fatima_abu_aisha_package_devdependencies_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_devdependencies",
+      "target": "eslint_config_mjs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_devdependencies",
+      "target": "fatima_abu_aisha_package_devdependencies_tailwindcss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_package_devdependencies",
+      "target": "fatima_abu_aisha_package_devdependencies_typescript"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "skills_lock_json",
+      "target": "fatima_abu_aisha_skills_lock_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "skills_lock_json",
+      "target": "fatima_abu_aisha_skills_lock_skills"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills",
+      "target": "fatima_abu_aisha_skills_lock_skills_convex"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills",
+      "target": "fatima_abu_aisha_skills_lock_skills_convex_create_component"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills",
+      "target": "fatima_abu_aisha_skills_lock_skills_convex_migration_helper"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills",
+      "target": "fatima_abu_aisha_skills_lock_skills_convex_performance_audit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills",
+      "target": "fatima_abu_aisha_skills_lock_skills_convex_quickstart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills",
+      "target": "fatima_abu_aisha_skills_lock_skills_convex_setup_auth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex",
+      "target": "fatima_abu_aisha_skills_lock_convex_source"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex",
+      "target": "fatima_abu_aisha_skills_lock_convex_sourcetype"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex",
+      "target": "fatima_abu_aisha_skills_lock_convex_skillpath"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex",
+      "target": "fatima_abu_aisha_skills_lock_convex_computedhash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_create_component",
+      "target": "fatima_abu_aisha_skills_lock_convex_source"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_migration_helper",
+      "target": "fatima_abu_aisha_skills_lock_convex_source"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_performance_audit",
+      "target": "fatima_abu_aisha_skills_lock_convex_source"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_quickstart",
+      "target": "fatima_abu_aisha_skills_lock_convex_source"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_setup_auth",
+      "target": "fatima_abu_aisha_skills_lock_convex_source"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_create_component",
+      "target": "fatima_abu_aisha_skills_lock_convex_sourcetype"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_migration_helper",
+      "target": "fatima_abu_aisha_skills_lock_convex_sourcetype"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_performance_audit",
+      "target": "fatima_abu_aisha_skills_lock_convex_sourcetype"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_quickstart",
+      "target": "fatima_abu_aisha_skills_lock_convex_sourcetype"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_setup_auth",
+      "target": "fatima_abu_aisha_skills_lock_convex_sourcetype"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_create_component",
+      "target": "fatima_abu_aisha_skills_lock_convex_skillpath"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_migration_helper",
+      "target": "fatima_abu_aisha_skills_lock_convex_skillpath"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_performance_audit",
+      "target": "fatima_abu_aisha_skills_lock_convex_skillpath"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_quickstart",
+      "target": "fatima_abu_aisha_skills_lock_convex_skillpath"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_setup_auth",
+      "target": "fatima_abu_aisha_skills_lock_convex_skillpath"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_create_component",
+      "target": "fatima_abu_aisha_skills_lock_convex_computedhash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_migration_helper",
+      "target": "fatima_abu_aisha_skills_lock_convex_computedhash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_performance_audit",
+      "target": "fatima_abu_aisha_skills_lock_convex_computedhash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_quickstart",
+      "target": "fatima_abu_aisha_skills_lock_convex_computedhash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills-lock.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fatima_abu_aisha_skills_lock_skills_convex_setup_auth",
+      "target": "fatima_abu_aisha_skills_lock_convex_computedhash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vercel.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vercel_json",
+      "target": "fatima_abu_aisha_vercel_framework"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/dataModel.d.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_datamodel_d_ts",
+      "target": "convex_schema_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/http.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_http_ts",
+      "target": "convex_generated_server_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/http.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_http_ts",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/http.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_http_ts",
+      "target": "convex_http_http"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/http.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_http_ts",
+      "target": "convex_http_validaterequest"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/api.d.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_api_d_ts",
+      "target": "convex_http_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/auth.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_auth_ts",
+      "target": "convex_generated_server_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/auth.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_auth_ts",
+      "target": "convex_auth_getuserid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/auth.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_auth_ts",
+      "target": "convex_auth_enforceadmin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/auth.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_auth_ts",
+      "target": "convex_auth_getclientuser"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/contacts.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_contacts_ts",
+      "target": "convex_auth_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/documents.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_documents_ts",
+      "target": "convex_auth_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_appointments_ts",
+      "target": "convex_auth_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/api.d.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_api_d_ts",
+      "target": "convex_auth_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/documents.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_documents_ts",
+      "target": "convex_auth_getuserid"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_appointments_ts",
+      "target": "convex_auth_getuserid"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/contacts.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_contacts_ts",
+      "target": "convex_auth_enforceadmin"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/documents.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_documents_ts",
+      "target": "convex_auth_enforceadmin"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_appointments_ts",
+      "target": "convex_auth_enforceadmin"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/contacts.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_contacts_ts",
+      "target": "convex_generated_server_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/contacts.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_contacts_ts",
+      "target": "convex_contacts_getall"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/contacts.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_contacts_ts",
+      "target": "convex_contacts_submit"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/api.d.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_api_d_ts",
+      "target": "convex_contacts_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/users.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_users_ts",
+      "target": "convex_generated_server_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/users.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_users_ts",
+      "target": "convex_users_upsertfromclerk"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/users.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_users_ts",
+      "target": "convex_users_deletefromclerk"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/api.d.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_api_d_ts",
+      "target": "convex_users_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/articles.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_articles_ts",
+      "target": "convex_generated_server_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/articles.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_articles_ts",
+      "target": "convex_articles_create"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/articles.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_articles_ts",
+      "target": "convex_articles_update"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/articles.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_articles_ts",
+      "target": "convex_articles_remove"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/articles.ts",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_articles_ts",
+      "target": "convex_articles_getall"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/articles.ts",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_articles_ts",
+      "target": "convex_articles_getpublished"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/articles.ts",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_articles_ts",
+      "target": "convex_articles_getbyslug"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/api.d.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_api_d_ts",
+      "target": "convex_articles_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/documents.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_documents_ts",
+      "target": "convex_generated_server_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/documents.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_documents_ts",
+      "target": "convex_documents_upload"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/documents.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_documents_ts",
+      "target": "convex_documents_getmydocuments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/documents.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_documents_ts",
+      "target": "convex_documents_getall"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/api.d.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_api_d_ts",
+      "target": "convex_documents_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/dashboard/documents/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_dashboard_documents_page_tsx",
+      "target": "convex_documents_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_appointments_ts",
+      "target": "convex_generated_server_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_appointments_ts",
+      "target": "convex_appointments_create"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_appointments_ts",
+      "target": "convex_appointments_getmyappointments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_appointments_ts",
+      "target": "convex_appointments_getall"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/appointments.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_appointments_ts",
+      "target": "convex_appointments_updatestatus"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/api.d.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_api_d_ts",
+      "target": "convex_appointments_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/dashboard/appointments/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_dashboard_appointments_page_tsx",
+      "target": "convex_appointments_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_server_d_ts",
+      "target": "generated_server_d_queryctx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_server_d_ts",
+      "target": "generated_server_d_mutationctx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L123",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_server_d_ts",
+      "target": "generated_server_d_actionctx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_server_d_ts",
+      "target": "generated_server_d_databasereader"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/server.d.ts",
+      "source_location": "L143",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_server_d_ts",
+      "target": "generated_server_d_databasewriter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/dataModel.d.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_datamodel_d_ts",
+      "target": "generated_datamodel_d_tablenames"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/dataModel.d.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_datamodel_d_ts",
+      "target": "generated_datamodel_d_doc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/dataModel.d.ts",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_datamodel_d_ts",
+      "target": "generated_datamodel_d_id"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/api.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_api_js",
+      "target": "generated_api_components"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/articles/[slug]/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_articles_slug_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/articles/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_articles_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/articles/[id]/edit/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_articles_id_edit_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/articles/new/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_articles_new_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/documents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_documents_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/appointments/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_appointments_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/contacts/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_contacts_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/contact/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_contact_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/dashboard/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_dashboard_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/dashboard/documents/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_dashboard_documents_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/dashboard/appointments/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_dashboard_appointments_page_tsx",
+      "target": "convex_generated_api_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/ai/ai-files.state.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_ai_ai_files_state_json",
+      "target": "ai_ai_files_state_guidelineshash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/ai/ai-files.state.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_ai_ai_files_state_json",
+      "target": "ai_ai_files_state_agentsmdsectionhash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/ai/ai-files.state.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_ai_ai_files_state_json",
+      "target": "ai_ai_files_state_claudemdhash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "convex/_generated/ai/ai-files.state.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "convex_generated_ai_ai_files_state_json",
+      "target": "ai_ai_files_state_agentskillssha"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vercel/repo.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vercel_repo_json",
+      "target": "vercel_repo_remotename"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vercel/repo.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vercel_repo_json",
+      "target": "vercel_repo_projects"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_local_json",
+      "target": "claude_settings_local_permissions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_local_permissions",
+      "target": "claude_settings_local_permissions_allow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/constants.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_constants_ts",
+      "target": "src_constants_assets"
+    },
+    {
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PracticeAreasGrid.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "src_constants_practice_areas",
+      "target": "src_constants_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "src_constants_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/articles/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_articles_page_tsx",
+      "target": "src_constants_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/about/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_about_page_tsx",
+      "target": "src_constants_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "src_constants_assets"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/articles/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_articles_page_tsx",
+      "target": "src_constants_assets"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/about/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_about_page_tsx",
+      "target": "src_constants_assets"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "src_constants_practice_areas"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PracticeAreasGrid.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_constants_practice_areas",
+      "target": "components_practiceareasgrid_icon_map"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PracticeAreasGrid.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_constants_practice_areas",
+      "target": "components_practiceareasgrid_containervariants"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PracticeAreasGrid.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_constants_practice_areas",
+      "target": "components_practiceareasgrid_itemvariants"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_middleware_ts",
+      "target": "src_middleware_ispublicroute"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_middleware_ts",
+      "target": "src_middleware_isadminroute"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_middleware_ts",
+      "target": "src_middleware_signinurl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_middleware_ts",
+      "target": "src_middleware_config"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "src_components_convexclientprovider_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "src_components_header_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "src_components_footer_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_rootlayout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "app_page_home"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/sitemap/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_sitemap_page_tsx",
+      "target": "sitemap_page_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/sitemap/page.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_sitemap_page_tsx",
+      "target": "sitemap_page_links"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/sitemap/page.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_sitemap_page_tsx",
+      "target": "sitemap_page_sitemap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/articles/page.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_articles_page_tsx",
+      "target": "articles_page_articles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/articles/[slug]/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_articles_slug_page_tsx",
+      "target": "slug_page_articlepage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/sign-in/[[...sign-in]]/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_sign_in_sign_in_page_tsx",
+      "target": "sign_in_page_signinpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_page_tsx",
+      "target": "admin_page_admindashboard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/articles/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_articles_page_tsx",
+      "target": "articles_page_adminarticles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/articles/[id]/edit/page.tsx",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_articles_id_edit_page_tsx",
+      "target": "edit_page_editarticle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/articles/new/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_articles_new_page_tsx",
+      "target": "new_page_newarticle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/documents/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_documents_page_tsx",
+      "target": "documents_page_admindocuments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/appointments/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_appointments_page_tsx",
+      "target": "appointments_page_status_map"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/appointments/page.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_appointments_page_tsx",
+      "target": "appointments_page_adminappointments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/dashboard/appointments/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_dashboard_appointments_page_tsx",
+      "target": "appointments_page_status_map"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/contacts/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_contacts_page_tsx",
+      "target": "contacts_page_admincontacts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/terms/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_terms_page_tsx",
+      "target": "terms_page_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/terms/page.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_terms_page_tsx",
+      "target": "terms_page_terms"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/contact/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_contact_page_tsx",
+      "target": "contact_page_contact"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/privacy/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_privacy_page_tsx",
+      "target": "privacy_page_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/privacy/page.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_privacy_page_tsx",
+      "target": "privacy_page_privacy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/dashboard/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_dashboard_page_tsx",
+      "target": "dashboard_page_dashboard"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_services_page_tsx",
+      "target": "src_components_servicesgrid_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_services_page_tsx",
+      "target": "services_page_services"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/sign-up/[[...sign-up]]/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_sign_up_sign_up_page_tsx",
+      "target": "sign_up_page_signuppage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/about/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_about_page_tsx",
+      "target": "about_page_about"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MagneticButton.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_magneticbutton_tsx",
+      "target": "components_magneticbutton_magneticbuttonprops"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "src_components_magneticbutton_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "components_header_navlinks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "components_header_header"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ServicesGrid.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_servicesgrid_tsx",
+      "target": "components_servicesgrid_services"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ServicesGrid.tsx",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_servicesgrid_tsx",
+      "target": "components_servicesgrid_containervariants"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ServicesGrid.tsx",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_servicesgrid_tsx",
+      "target": "components_servicesgrid_itemvariants"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ConvexClientProvider.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_convexclientprovider_tsx",
+      "target": "components_convexclientprovider_convex"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_footer_tsx",
+      "target": "components_footer_footer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "convex/contacts.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "convex_contacts",
+      "target": "convex_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "convex/appointments.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "convex_appointments",
+      "target": "convex_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "convex/documents.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "convex_documents",
+      "target": "convex_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "convex/articles.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "convex_articles",
+      "target": "convex_schema"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "convex/contacts.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "convex_contacts",
+      "target": "convex_auth"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "convex/appointments.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "convex_appointments",
+      "target": "convex_auth"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "convex/documents.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "convex_documents",
+      "target": "convex_auth"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "convex/auth.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "convex_auth",
+      "target": "clerk_auth"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "convex/http.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "convex_http",
+      "target": "clerk_auth"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/middleware.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "middleware_ts",
+      "target": "clerk_auth"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "aaf6c5c3cc47e58b317a2f1928ad8f8ec1e5f983"
+}
