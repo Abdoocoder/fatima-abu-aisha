@@ -7,11 +7,11 @@ export default function Footer() {
   return (
     <footer className="bg-brand-navy text-white pt-16 pb-8 border-t-4 border-brand-gold">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-        <div className="flex flex-col md:flex-row-reverse justify-between items-center gap-10">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-10">
           <div className="flex flex-col items-center md:items-start gap-4">
             <Link
               href="/"
-              className="flex items-center gap-3 flex-row-reverse"
+              className="flex items-center gap-3"
             >
               <Gavel className="text-brand-gold w-8 h-8" />
               <span className="font-tajawal text-2xl font-bold text-white">

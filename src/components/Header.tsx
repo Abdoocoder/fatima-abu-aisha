@@ -20,15 +20,15 @@ export default function Header() {
 
   return (
     <header className="bg-white border-b border-brand-gray sticky top-0 z-50">
-      <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop h-20 flex flex-row-reverse justify-between items-center">
-        <Link href="/" className="flex items-center gap-3 flex-row-reverse">
+      <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop h-20 flex justify-between items-center">
+        <Link href="/" className="flex items-center gap-3">
           <Gavel className="text-brand-gold w-8 h-8" />
           <span className="font-tajawal text-xl font-bold text-brand-navy">
             فاطمة أبو عيشة للمحاماة
           </span>
         </Link>
 
-        <nav className="hidden md:flex flex-row-reverse items-center gap-8">
+        <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link
               key={link.path}
@@ -44,7 +44,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-4 flex-row-reverse">
+        <div className="flex items-center gap-4">
           <button className="hidden md:block btn-gold px-6">
             طلب استشارة
           </button>

@@ -77,7 +77,7 @@ export default function Articles() {
                 className="w-full pr-12 pl-4 py-3 bg-brand-gray border-none rounded-lg focus:ring-2 focus:ring-brand-gold outline-none font-tajawal"
               />
             </div>
-            <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 hide-scrollbar rtl:flex-row-reverse">
+            <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 hide-scrollbar">
               {[
                 "الكل",
                 "الشركات",
