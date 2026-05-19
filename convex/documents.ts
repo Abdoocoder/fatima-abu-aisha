@@ -1,6 +1,6 @@
 import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
-import { getUserId } from "./auth";
+import { getUserId, enforceAdmin } from "./auth";
 
 export const upload = mutation({
   args: {
@@ -34,6 +34,7 @@ export const getMyDocuments = query({
 
 export const getAll = query({
   handler: async (ctx) => {
+    await enforceAdmin(ctx);
     return await ctx.db.query("documents").collect();
   },
 });
