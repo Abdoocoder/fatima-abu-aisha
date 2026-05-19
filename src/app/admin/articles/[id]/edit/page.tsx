@@ -108,7 +108,7 @@ function EditArticleForm({
       <div className="max-w-container-max mx-auto max-w-3xl">
         <Link
           href="/admin/articles"
-          className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors"
+          className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
         >
           <ArrowLeft className="w-4 h-4" /> العودة للمقالات
         </Link>
@@ -119,7 +119,7 @@ function EditArticleForm({
           </h1>
           <button
             onClick={handleDelete}
-            className="text-red-600 text-sm font-bold flex items-center gap-2 hover:text-red-700 transition-colors"
+            className="text-red-600 text-sm font-bold flex items-center gap-2 hover:text-red-700 transition-colors duration-200 ease-[var(--ease-out)] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
           >
             <Trash2 className="w-4 h-4" /> حذف
           </button>

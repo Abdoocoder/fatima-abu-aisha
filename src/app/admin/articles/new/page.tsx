@@ -52,7 +52,7 @@ export default function NewArticle() {
       <div className="max-w-container-max mx-auto max-w-3xl">
         <Link
           href="/admin/articles"
-          className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors"
+          className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
         >
           <ArrowLeft className="w-4 h-4" /> العودة للمقالات
         </Link>

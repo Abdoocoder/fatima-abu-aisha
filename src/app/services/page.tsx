@@ -104,8 +104,8 @@ export default function Services() {
                     className={`${
                       service.featured
                         ? "btn-gold px-8 py-3"
-                        : "text-brand-gold font-bold flex items-center gap-2 hover:text-brand-navy"
-                    } transition-all`}
+                        : "text-brand-gold font-bold flex items-center gap-2 hover:text-brand-navy transition-colors duration-200 ease-[var(--ease-out)] active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
+                    }`}
                   >
                     <span>
                       {service.featured ? "احجز استشارة" : "التفاصيل"}

@@ -83,7 +83,7 @@ export default function Home() {
                   key={service.id}
                   className="card-flat p-8 rounded-lg group flex flex-col h-full"
                 >
-                  <div className="w-16 h-16 bg-brand-gray rounded-full flex items-center justify-center text-brand-gold mb-6 group-hover:bg-brand-gold group-hover:text-white transition-all duration-300">
+                  <div className="w-16 h-16 bg-brand-gray rounded-full flex items-center justify-center text-brand-gold mb-6 group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300 ease-[var(--ease-out)]">
                     <Icon className="w-8 h-8" />
                   </div>
                   <h3 className="font-tajawal text-2xl font-bold text-brand-navy mb-4">

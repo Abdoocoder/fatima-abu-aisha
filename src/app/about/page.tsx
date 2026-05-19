@@ -28,7 +28,7 @@ export default function About() {
                 src={ASSETS.HERO_OFFICE}
                 alt="مكتب المحامية فاطمة أبو عيشة"
                 fill
-                className="object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-500"
+                className="object-cover grayscale-[0.2] hover:grayscale-0 transition-[filter] duration-500 ease-[var(--ease-out)]"
                 loading="lazy"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 unoptimized

@@ -33,7 +33,7 @@ export default function Header() {
             <Link
               key={link.path}
               href={link.path}
-              className={`font-tajawal text-sm transition-all py-2 border-b-2 ${
+              className={`font-tajawal text-sm transition-colors duration-200 ease-[var(--ease-out)] py-2 border-b-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:ring-offset-2 ${
                 pathname === link.path
                   ? "text-brand-gold border-brand-gold font-bold"
                   : "text-on-surface-variant border-transparent hover:text-brand-navy"
@@ -49,7 +49,7 @@ export default function Header() {
             طلب استشارة
           </button>
           <button
-            className="md:hidden p-2 text-brand-navy"
+            className="md:hidden p-2 text-brand-navy active:scale-95 transition-transform duration-150 ease-[var(--ease-out)]"
             onClick={() => setIsMenuOpen(true)}
             aria-label="فتح القائمة"
           >
@@ -81,7 +81,7 @@ export default function Header() {
                 </span>
                 <button
                   onClick={() => setIsMenuOpen(false)}
-                  className="p-2 text-on-surface-variant"
+                  className="p-2 text-on-surface-variant active:scale-95 transition-transform duration-150 ease-[var(--ease-out)]"
                   aria-label="إغلاق القائمة"
                 >
                   <X className="w-6 h-6" />

@@ -26,19 +26,19 @@ export default function Footer() {
           <nav className="flex flex-wrap justify-center gap-8">
             <Link
               href="/privacy"
-              className="text-sm font-tajawal text-white/70 hover:text-brand-gold transition-colors"
+              className="text-sm font-tajawal text-white/70 hover:text-brand-gold transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:ring-offset-2 focus-visible:ring-offset-brand-navy"
             >
               الخصوصية
             </Link>
             <Link
               href="/terms"
-              className="text-sm font-tajawal text-white/70 hover:text-brand-gold transition-colors"
+              className="text-sm font-tajawal text-white/70 hover:text-brand-gold transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:ring-offset-2 focus-visible:ring-offset-brand-navy"
             >
               الشروط والأحكام
             </Link>
             <Link
               href="/sitemap"
-              className="text-sm font-tajawal text-white/70 hover:text-brand-gold transition-colors"
+              className="text-sm font-tajawal text-white/70 hover:text-brand-gold transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:ring-offset-2 focus-visible:ring-offset-brand-navy"
             >
               خريطة الموقع
             </Link>
@@ -55,7 +55,7 @@ export default function Footer() {
               href="https://www.abdoocoder.dev/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-brand-gold hover:text-white transition-colors"
+              className="text-brand-gold hover:text-white transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:ring-offset-2 focus-visible:ring-offset-brand-navy"
             >
               Abdoo Coder
             </a>

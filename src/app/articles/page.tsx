@@ -77,7 +77,7 @@ export default function Articles() {
               ].map((cat, i) => (
                 <button
                   key={cat}
-                  className={`whitespace-nowrap px-6 py-2 rounded font-tajawal text-sm font-bold transition-all ${
+                  className={`whitespace-nowrap px-6 py-2 rounded font-tajawal text-sm font-bold transition-colors duration-200 ease-[var(--ease-out)] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold ${
                     i === 0
                       ? "bg-brand-navy text-white"
                       : "bg-brand-gray text-on-surface-variant hover:bg-brand-gold hover:text-white"
@@ -208,22 +208,22 @@ export default function Articles() {
 
           <div className="mt-16 flex justify-center items-center gap-3">
             <button
-              className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-on-surface-variant hover:bg-brand-gray transition-colors"
+              className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-on-surface-variant hover:bg-brand-gray transition-colors duration-200 ease-[var(--ease-out)] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
               aria-label="الصفحة السابقة"
             >
               <ArrowRight className="w-4 h-4" />
             </button>
-            <button className="w-11 h-11 rounded bg-brand-navy text-white flex items-center justify-center font-bold" aria-current="page">
+            <button className="w-11 h-11 rounded bg-brand-navy text-white flex items-center justify-center font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold" aria-current="page">
               ١
             </button>
-            <button className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-brand-navy hover:bg-brand-gray transition-colors font-bold">
+            <button className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-brand-navy hover:bg-brand-gray transition-colors duration-200 ease-[var(--ease-out)] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold font-bold">
               ٢
             </button>
-            <button className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-brand-navy hover:bg-brand-gray transition-colors font-bold">
+            <button className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-brand-navy hover:bg-brand-gray transition-colors duration-200 ease-[var(--ease-out)] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold font-bold">
               ٣
             </button>
             <button
-              className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-on-surface-variant hover:bg-brand-gray transition-colors"
+              className="w-11 h-11 rounded border border-brand-gray flex items-center justify-center text-on-surface-variant hover:bg-brand-gray transition-colors duration-200 ease-[var(--ease-out)] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
               aria-label="الصفحة التالية"
             >
               <ArrowRight className="w-4 h-4 rotate-180" />
@@ -254,7 +254,7 @@ export default function Articles() {
                 placeholder="البريد الإلكتروني"
                 className="flex-grow px-6 py-4 border border-brand-gray rounded-lg focus:ring-2 focus:ring-brand-gold outline-none font-tajawal"
               />
-              <button className="btn-primary py-4 px-8 whitespace-nowrap">
+              <button className="btn-primary py-4 px-8 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold">
                 اشترك الآن
               </button>
             </div>

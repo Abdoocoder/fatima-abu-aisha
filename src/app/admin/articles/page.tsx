@@ -15,7 +15,7 @@ export default function AdminArticles() {
           <div>
             <Link
               href="/admin"
-              className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-4 transition-colors"
+              className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-4 transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
             >
               <ArrowLeft className="w-4 h-4" /> العودة للوحة الإدارة
             </Link>
@@ -78,7 +78,7 @@ export default function AdminArticles() {
                     )}
                     <Link
                       href={`/admin/articles/${article._id}/edit`}
-                      className="text-brand-gold text-sm font-bold hover:text-brand-navy transition-colors"
+                      className="text-brand-gold text-sm font-bold hover:text-brand-navy transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
                     >
                       تعديل
                     </Link>

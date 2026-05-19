@@ -53,7 +53,7 @@ export default function ArticlePage() {
         <div className="max-w-container-max mx-auto max-w-4xl">
           <Link
             href="/articles"
-            className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors"
+            className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
           >
             <ArrowRight className="w-4 h-4 rtl:rotate-180" />
             العودة للمكتبة القانونية
@@ -107,7 +107,7 @@ export default function ArticlePage() {
                 <Link
                   key={related._id}
                   href={`/articles/${related.slug}`}
-                  className="card-flat p-6 rounded-xl group hover:shadow-md transition-all"
+                  className="card-flat p-6 rounded-xl group hover:shadow-md transition-shadow duration-300 ease-[var(--ease-out)]"
                 >
                   <h3 className="font-tajawal text-lg font-bold text-brand-navy mb-3 group-hover:text-brand-gold transition-colors">
                     {related.title}

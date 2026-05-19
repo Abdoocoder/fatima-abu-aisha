@@ -19,7 +19,7 @@ export default function Appointments() {
       <div className="max-w-container-max mx-auto">
         <Link
           href="/dashboard"
-          className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors"
+          className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
         >
           <ArrowLeft className="w-4 h-4" /> العودة للوحة التحكم
         </Link>

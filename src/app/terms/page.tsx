@@ -15,7 +15,7 @@ export default function Terms() {
         <div className="max-w-container-max mx-auto max-w-4xl">
           <Link
             href="/"
-            className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors"
+            className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
           >
             <ArrowRight className="w-4 h-4" /> العودة للرئيسية
           </Link>
@@ -93,7 +93,7 @@ export default function Terms() {
               للاستفسارات المتعلقة بهذه الشروط، يرجى{" "}
               <Link
                 href="/contact"
-                className="text-brand-gold hover:underline font-bold"
+                className="text-brand-gold hover:underline font-bold transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
               >
                 التواصل معنا
               </Link>

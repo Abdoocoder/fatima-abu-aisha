@@ -13,7 +13,7 @@ export default function AdminDocuments() {
       <div className="max-w-container-max mx-auto">
         <Link
           href="/admin"
-          className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors"
+          className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
         >
           <ArrowLeft className="w-4 h-4" /> العودة للوحة الإدارة
         </Link>
@@ -50,7 +50,7 @@ export default function AdminDocuments() {
                   href={doc.fileUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-brand-gold text-sm font-bold hover:text-brand-navy transition-colors"
+                  className="text-brand-gold text-sm font-bold hover:text-brand-navy transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
                 >
                   عرض
                 </a>

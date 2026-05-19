@@ -25,7 +25,7 @@ export default function Sitemap() {
         <div className="max-w-container-max mx-auto max-w-2xl">
           <Link
             href="/"
-            className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors"
+            className="font-tajawal text-sm text-on-surface-variant hover:text-brand-navy flex items-center gap-2 mb-8 transition-colors duration-200 ease-[var(--ease-out)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
           >
             <ArrowRight className="w-4 h-4" /> العودة للرئيسية
           </Link>
@@ -39,7 +39,7 @@ export default function Sitemap() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="block p-5 rounded-xl card-flat hover:border-brand-gold transition-all duration-300 group"
+                className="block p-5 rounded-xl card-flat hover:border-brand-gold transition-shadow duration-300 ease-[var(--ease-out)] group"
               >
                 <span className="font-tajawal text-lg text-brand-navy font-bold group-hover:text-brand-gold transition-colors">
                   {link.label}
