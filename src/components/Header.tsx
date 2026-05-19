@@ -52,6 +52,7 @@ export default function Header() {
           <button 
             className="md:hidden p-2 text-brand-navy"
             onClick={() => setIsMenuOpen(true)}
+            aria-label="فتح القائمة"
           >
             <Menu className="w-6 h-6" />
           </button>
@@ -78,7 +79,7 @@ export default function Header() {
             >
               <div className="p-6 flex justify-between items-center border-b border-brand-gray">
                 <span className="font-tajawal text-lg font-bold text-brand-navy">القائمة</span>
-                <button onClick={() => setIsMenuOpen(false)} className="p-2 text-on-surface-variant">
+                <button onClick={() => setIsMenuOpen(false)} className="p-2 text-on-surface-variant" aria-label="إغلاق القائمة">
                   <X className="w-6 h-6" />
                 </button>
               </div>

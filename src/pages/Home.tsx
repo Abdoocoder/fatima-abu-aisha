@@ -19,7 +19,7 @@ export default function Home() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative min-h-[85vh] flex items-center pt-20 pb-section-padding overflow-hidden bg-surface">
-        <div className="absolute inset-0 bg-surface-container-low/50 -z-10" />
+        <div className="absolute inset-0 bg-brand-gray/30 -z-10" />
         <div className="absolute right-0 top-0 w-1/2 h-full bg-brand-gray/30 -skew-x-12 origin-top-right -z-10" />
         
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full grid md:grid-cols-12 gap-12 items-center">
@@ -69,6 +69,7 @@ export default function Home() {
                 src={ASSETS.LOGO} 
                 alt="شعار المحامية فاطمة أبو عيشة" 
                 className="w-full h-auto object-contain"
+                loading="lazy"
               />
             </div>
           </motion.div>

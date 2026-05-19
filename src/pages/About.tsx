@@ -39,8 +39,9 @@ export default function About() {
             <div className="relative aspect-[4/5] rounded-xl overflow-hidden shadow-sm border border-brand-gray">
               <img 
                 src={ASSETS.HERO_OFFICE} 
-                alt="Law Office" 
+                alt="مكتب المحامية فاطمة أبو عيشة" 
                 className="w-full h-full object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-500"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-brand-navy/10" />
             </div>

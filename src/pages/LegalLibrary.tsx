@@ -70,7 +70,9 @@ export default function LegalLibrary() {
           <div className="flex flex-col md:flex-row gap-6 mb-12 bg-white p-4 border border-brand-gray rounded-xl">
             <div className="relative flex-grow">
               <Search className="absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant w-5 h-5" />
+              <label htmlFor="search-articles" className="sr-only">ابحث في المقالات القانونية</label>
               <input 
+                id="search-articles"
                 type="text" 
                 placeholder="ابحث في المقالات القانونية..."
                 className="w-full pr-12 pl-4 py-3 bg-brand-gray border-none rounded-lg focus:ring-2 focus:ring-brand-gold outline-none font-tajawal"
@@ -99,8 +101,9 @@ export default function LegalLibrary() {
             >
               <img 
                 src={ASSETS.BLOG_1} 
-                alt="Featured Article" 
+                alt="مقال مميز: تأثير التعديلات الأخيرة على نظام الشركات" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-navy via-brand-navy/20 to-transparent flex flex-col justify-end p-8 md:p-12">
                 <span className="inline-block px-4 py-1 bg-brand-gold text-brand-navy text-xs font-bold rounded mb-4 w-max">مقال مميز</span>
@@ -153,6 +156,7 @@ export default function LegalLibrary() {
                       src={article.image} 
                       alt={article.title} 
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      loading="lazy"
                     />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center text-brand-navy/10 animate-pulse">
@@ -202,7 +206,9 @@ export default function LegalLibrary() {
               <p className="font-tajawal text-lg text-on-surface-variant leading-relaxed">اشترك ليصلك أحدث المقالات والتحليلات القانونية والتحديثات التشريعية مباشرة إلى بريدك الإلكتروني.</p>
             </div>
             <div className="w-full md:w-1/2 flex flex-col sm:flex-row gap-4">
+              <label htmlFor="newsletter-email" className="sr-only">البريد الإلكتروني للنشرة القانونية</label>
               <input 
+                id="newsletter-email"
                 type="email" 
                 placeholder="البريد الإلكتروني"
                 className="flex-grow px-6 py-4 border border-brand-gray rounded-lg focus:ring-2 focus:ring-brand-gold outline-none font-tajawal"
