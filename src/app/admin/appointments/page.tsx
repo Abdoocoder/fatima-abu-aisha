@@ -2,6 +2,7 @@
 
 import { useQuery, useMutation } from "convex/react";
 import { api } from "@convex/_generated/api";
+import { Id } from "@convex/_generated/dataModel";
 import { Calendar, ArrowLeft, Check, X } from "lucide-react";
 import Link from "next/link";
 
@@ -16,13 +17,10 @@ export default function AdminAppointments() {
   const updateStatus = useMutation(api.appointments.updateStatus);
 
   const handleStatus = async (
-    id: string,
+    id: Id<"appointments">,
     status: "confirmed" | "cancelled",
   ) => {
-    await updateStatus({
-      appointmentId: id as any,
-      status,
-    });
+    await updateStatus({ appointmentId: id, status });
   };
 
   return (

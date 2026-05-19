@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { History, GraduationCap, ShieldCheck, Award } from "lucide-react";
 import { motion } from "motion/react";
 import { ASSETS } from "@/constants";
@@ -39,11 +40,14 @@ export default function About() {
             className="md:col-span-5"
           >
             <div className="relative aspect-[4/5] rounded-xl overflow-hidden shadow-sm border border-brand-gray">
-              <img
+              <Image
                 src={ASSETS.HERO_OFFICE}
                 alt="مكتب المحامية فاطمة أبو عيشة"
-                className="w-full h-full object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-500"
+                fill
+                className="object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-500"
                 loading="lazy"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                unoptimized
               />
               <div className="absolute inset-0 bg-brand-navy/10" />
             </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { ArrowLeft, Gavel, Users, Briefcase } from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
@@ -66,11 +67,13 @@ export default function Home() {
           >
             <div className="relative w-full max-w-[450px] aspect-square flex items-center justify-center bg-white rounded-full shadow-sm border border-brand-gray p-8">
               <div className="absolute inset-0 border-2 border-brand-gold/10 rounded-full scale-105 animate-pulse" />
-              <img
+              <Image
                 src={ASSETS.LOGO}
                 alt="شعار المحامية فاطمة أبو عيشة"
-                className="w-full h-auto object-contain"
-                loading="lazy"
+                fill
+                className="object-contain"
+                loading="eager"
+                unoptimized
               />
             </div>
           </motion.div>
